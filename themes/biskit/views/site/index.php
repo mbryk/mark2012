@@ -7,7 +7,7 @@
 							<div class="art-layout-cell layout-item-0" style="width: 25%;">
 								<p><img width="64" height="64" alt="" src="<?php echo Yii::app()->theme->baseUrl; ?>/css/images/dir-2.png" style="float:left; margin-right:10px; margin-bottom:20px;" /></p>
 								<h4>Directory</h4>
-								<p><span style="color: rgb(255, 255, 255);">Lorem ipsum dolor sit amet, consectetur .</span></p>
+								<p><span style="color: rgb(255, 255, 255);">YOOOOO .</span></p>
 								<p style="text-align:center;"><a href="#" class="art-button">More</a></p>
 							</div>
 							
