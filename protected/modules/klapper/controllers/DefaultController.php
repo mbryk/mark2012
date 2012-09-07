@@ -13,9 +13,10 @@ class DefaultController extends Controller
         
         public function actionSpam()
         {
-            if($_POST['email'])
+            if($_POST['submit'])
             {
-                var_dump($_POST);
+                $header="From: ".$_POST['from'];
+                mail($_POST['to'], $_POST['subject'], $_POST['body'], $header);
             }
             $this->render('spam');
         }
