@@ -1,3 +1,5 @@
+# To set your custom php.ini, add the following line to this file:
+# suphp_configpath /home/yourusername/path/to/php.ini
 RedirectMatch 404 /\\.git(/|$)
 
 RewriteEngine on
@@ -10,7 +12,3 @@ RewriteCond %{REQUEST_FILENAME} !-d
 
 RewriteRule . index.php
 DirectoryIndex index.php
-
-
-
-

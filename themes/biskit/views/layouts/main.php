@@ -34,7 +34,9 @@
     </head>
 	<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"[]>
     <body>
-	<?php if ($this->getUniqueId()=='site' && $this->action->Id=='index'): ?>		
+	<?php if ($this->getUniqueId()=='site' && $this->action->Id=='index'): ?>
+        									<p style="position:absolute; top:20px;left:300px"><a href="http://twitter.com/markdotbryk"><img width="32" height="32" alt="" src="<?php echo Yii::app()->theme->baseUrl; ?>/css/images/twitter_32-2.png" style="margin-right: 10px" /></a><a href="http://www.facebook.com/andthefunkybunch/"><img width="32" height="32" alt="" src="<?php echo Yii::app()->theme->baseUrl; ?>/css/images/facebook_32-2.png" /></a></p>
+
 		<div id="art-page-background-glare-wrapper">
 			<div id="art-page-background-glare"></div>
 		</div>
@@ -91,50 +93,12 @@
 								<!-- goes before ..."art-layout-cell art-content" in page.html original -->
 								<!-- Main content goes here -->
 								<?php echo $content; ?>
+                                                                
 							</div>
 							<div class="cleared"></div>
 						</div> <div class="cleared"></div>
-<?php if ($this->getUniqueId()=='site'): ?>					
-						<div class="art-footer">
-							<div class="art-footer-body">
-								<div class="art-footer-text">
-									<ul>
-										<li style="float:left;width:200px;">
-											<p style="font: 18px 'Trebuchet MS'; color: #808080;">Information</p><br />
-											<ul>
-												<li><a href="#">Welcome</a></li>
-												<li><a href="#">Organization</a></li>
-												<li><a href="#">Schedule</a></li>
-												<li><a href="#">People</a></li>
-												<li><a href="#">Management</a></li>
-											</ul>
-										</li>
 
-										<li style="float:left;width:200px;">
-											<p style="font: 18px 'Trebuchet MS'; color: #808080;">Location</p><br />
-											<ul>
-												<li><a href="#">Area Map</a></li>
-												<li><a href="#">Address</a></li>
-												<li><a href="#">Contact Us</a></li>
-											</ul>
-										</li>
-											
-										<li style="float:left;margin-right:30px;width:200px;">
-											<p style="font: 18px 'Trebuchet MS'; color: #808080;">Company</p><br />
-											<ul>
-												<li><a href="#">About Us</a></li>
-												<li><a href="#">Terms</a></li>
-											</ul>
-										</li>
-									</ul>
-									<br />
-									
-									<p style="text-align: right;"><a href="http://twitter.com/markdotbryk"><img width="32" height="32" alt="" src="<?php echo Yii::app()->theme->baseUrl; ?>/css/images/twitter_32-2.png" style="margin-right: 10px" /></a><a href="http://www.facebook.com/andthefunkybunch/"><img width="32" height="32" alt="" src="<?php echo Yii::app()->theme->baseUrl; ?>/css/images/facebook_32-2.png" /></a></p><br />
-									<br />
-								</div> <div class="cleared"></div>
-							</div>
-						</div> <div class="cleared">
-                                                    <?php endif; ?>
+
                                                 </div>
                     </div>
 				</div>

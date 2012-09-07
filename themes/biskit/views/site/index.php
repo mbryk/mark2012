@@ -1,39 +1,41 @@
 <?php $this->pageTitle = Yii::app()->name; ?>
 <!-- demo content for the Artisteer theme -->
 
+<h1 style="text-align: center; font-size: 40px; color:green; padding-top:20px">Who Am I?</h1>
+
                 <div class="art-postcontent">
 					<div class="art-content-layout">
 						<div class="art-content-layout-row">
 							<div class="art-layout-cell layout-item-0" style="width: 25%;">
-								<p><img width="64" height="64" alt="" src="<?php echo Yii::app()->theme->baseUrl; ?>/css/images/dir-2.png" style="float:left; margin-right:10px; margin-bottom:20px;" /></p>
-								<h4>Directory</h4>
-								<p><span style="color: rgb(255, 255, 255);">YOOOOO .</span></p>
+								<p><img width="64" height="64" alt="" src="<?php echo Yii::app()->theme->baseUrl; ?>/css/images/my/programming_icon.png" style="float:left; margin-right:10px; margin-bottom:20px;" /></p>
+								<h4>Programmer</h4>
+								<p><span style="color: rgb(255, 255, 255);"></span></p>
 								<p style="text-align:center;"><a href="#" class="art-button">More</a></p>
 							</div>
 							
 							<div class="art-layout-cell layout-item-1" style="width: 25%;">
-								<p><img width="64" height="64" alt="" src="<?php echo Yii::app()->theme->baseUrl; ?>/css/images/port.png" style="float:left; margin-right:10px; margin-bottom:20px;" /></p>
-								<h4>Potfolio</h4>
-								<p><span style="color: rgb(255, 255, 255);">Cras elit nisl, rhoncus nec iaculis rhoncus.</span></p>
+								<p><img width="64" height="64" alt="" src="<?php echo Yii::app()->theme->baseUrl; ?>/css/images/my/engineer_icon.png" style="float:left; margin-right:10px; margin-bottom:20px;" /></p>
+								<h4>Engineer</h4>
+								<p><span style="color: rgb(255, 255, 255);"></span></p>
 								<p style="text-align:center;"><a href="#" class="art-button">More</a></p>
 							</div>
 	
 							<div class="art-layout-cell layout-item-0" style="width: 25%;">
-								<p><img width="64" height="64" alt="" src="<?php echo Yii::app()->theme->baseUrl; ?>/css/images/chart.png" style="float:left;margin-right:10px; margin-bottom:20px;" /></p>
-								<h4>Reporting</h4>        
-								<p><span style="color: rgb(255, 255, 255);">Aenean sollicitudin arcu  pellentesque ac iaculis.</span></p>
+								<p><img width="64" height="64" alt="" src="<?php echo Yii::app()->theme->baseUrl; ?>/css/images/my/piano_icon.png" style="float:left;margin-right:10px; margin-bottom:20px;" /></p>
+								<h4>Musician</h4>        
+								<p><span style="color: rgb(255, 255, 255);"></span></p>
 								<p style="text-align:center;"><a href="#" class="art-button">More</a></p>
 							</div>
 	
 							<div class="art-layout-cell layout-item-1" style="width: 25%;">
-								<p><img width="64" height="64" alt="" src="<?php echo Yii::app()->theme->baseUrl; ?>/css/images/time-2.png" style="float:left;margin-right:10px; margin-bottom:20px;" /></p>
-								<h4>Scheduling</h4>
-								<p><span style="color: rgb(255, 255, 255);">Etiam pharetra, tellus sit congue vulputate.</span></p>
+								<p><img width="64" height="64" alt="" src="<?php echo Yii::app()->theme->baseUrl; ?>/css/images/my/light_bulb.png" style="float:left;margin-right:10px; margin-bottom:20px;" /></p>
+								<h4>Thinker</h4>
+								<p><span style="color: rgb(255, 255, 255);"></span></p>
 								<p style="text-align:center;"><a href="#" class="art-button">More</a></p>
 							</div>
 						</div>
 					</div>
-
+<!--
 					<div class="art-content-layout">
 						<div class="art-content-layout-row">
 							<div class="art-layout-cell layout-item-2" style="width: 25%;">
@@ -76,5 +78,6 @@
 							</div>
 						</div>
 					</div>
+-->
 				</div>
                 <div class="cleared"></div>

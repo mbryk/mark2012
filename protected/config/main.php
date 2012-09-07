@@ -12,7 +12,6 @@ $params = require($configRoot.'/params.php');
 return array(
 	'basePath'=>dirname(__FILE__).DIRECTORY_SEPARATOR.'..',
 	'name'=>'Mark2012',
-        'theme'=>'biskit',
 
 	// preloading 'log' component
 	'preload'=>array('log', 'bootstrap'),
@@ -54,7 +53,7 @@ return array(
 				'<controller:\w+>/<action:\w+>/<id:\d+>'=>'<controller>/<action>',
 				'<controller:\w+>/<action:\w+>'=>'<controller>/<action>',
 			),
-                        'showScriptName'=>true,
+                        //'showScriptName'=>true,
 		),
 		
 		'db'=>array(

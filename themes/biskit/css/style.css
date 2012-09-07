@@ -765,12 +765,13 @@ div.art-headerobject
 {
    display: block;
    left: 100%;
-   margin-left: -265px;
+   margin-left: -325px;
    position: absolute;
-   top: 10px;
-   width: 266px;
-   height: 350px;
-   background-image: url('images/header-object.png');
+   top: 35px;
+   width: 325px;
+   height: 400px;
+   background-image: url('images/my/clear_cool.png');
+   
 }
 /* end HeaderObject */
 

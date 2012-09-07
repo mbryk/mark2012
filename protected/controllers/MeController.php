@@ -1,6 +1,6 @@
 <?php
-Yii::app()->theme = 'biskit';
-class SiteController extends Controller
+
+class MeController extends Controller
 {
 	/**
 	 * Declares class-based actions.
@@ -91,6 +91,10 @@ class SiteController extends Controller
 		// display the login form
 		$this->render('login',array('model'=>$model));
 	}
+        
+        public function actionStuff() {
+            $this->render('stuff');
+        }
 
 	/**
 	 * Logs out the current user and redirect to homepage.
