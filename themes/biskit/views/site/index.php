@@ -28,13 +28,60 @@
 							</div>
 	
 							<div class="art-layout-cell layout-item-1" style="width: 25%;">
-								<p><img width="64" height="64" alt="" src="<?php echo Yii::app()->theme->baseUrl; ?>/css/images/my/light_bulb.png" style="float:left;margin-right:10px; margin-bottom:20px;" /></p>
-								<h4>Thinker</h4>
+								<p><img width="64" height="64" alt="" src="<?php echo Yii::app()->theme->baseUrl; ?>/css/images/my/nancys_icon.png" style="float:left;margin-right:10px; margin-bottom:20px;" /></p>
+								<h4>Stoner</h4>
 								<p><span style="color: rgb(255, 255, 255);"></span></p>
 								<p style="text-align:center;"><a href="#" class="art-button">More</a></p>
 							</div>
+							<div class="art-layout-cell layout-item-0" style="width: 25%;">
+								<p><img width="64" height="64" alt="" src="<?php echo Yii::app()->theme->baseUrl; ?>/css/images/my/light_bulb.png" style="float:left; margin-right:10px; margin-bottom:20px;" /></p>
+								<h4>Thinker</h4>
+								<p><span style="color: rgb(255, 255, 255);"></span></p>
+								<p style="text-align:center;"><a href="#" class="art-button">More</a></p>
+							</div>                                                    
 						</div>
 					</div>
+                 <!--   <div id="myCarousel" class="carousel slide">
+                <div class="carousel-inner">
+                  <div class="item active">
+                    <img src="http://twitter.github.com/bootstrap/assets/img/bootstrap-mdo-sfmoma-01.jpg" alt="">
+                    <div class="carousel-caption">
+                      <h4>Programmer</h4>
+                      <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <img src="http://twitter.github.com/bootstrap/assets/img/bootstrap-mdo-sfmoma-01.jpg" alt="">
+                    <div class="carousel-caption">
+                      <h4>Engineer</h4>
+                      <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <img src="http://twitter.github.com/bootstrap/assets/img/bootstrap-mdo-sfmoma-01.jpg" alt="">
+                    <div class="carousel-caption">
+                      <h4>Musician</h4>
+                      <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <img src="http://twitter.github.com/bootstrap/assets/img/bootstrap-mdo-sfmoma-01.jpg" alt="">
+                    <div class="carousel-caption">
+                      <h4>Counselor</h4>
+                      <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <img src="http://twitter.github.com/bootstrap/assets/img/bootstrap-mdo-sfmoma-01.jpg" alt="">
+                    <div class="carousel-caption">
+                      <h4>Thinker</h4>
+                      <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                    </div>
+                  </div>                    
+                </div>
+                <a class="left carousel-control" href="#myCarousel" data-slide="prev">‹</a>
+                <a class="right carousel-control" href="#myCarousel" data-slide="next">›</a>
+              </div>
 <!--
 					<div class="art-content-layout">
 						<div class="art-content-layout-row">
