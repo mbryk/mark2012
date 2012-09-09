@@ -55,7 +55,8 @@ return array(
                                 //'page/<view>'=>array('site/page'),
                                 'programmer'=>'me/prog',
                                 'engineer'=>'me/eng',
-                                'musician'=>'me/music'
+                                'musician'=>'me/music',
+                                'klapper/spam'=>'klapper/default/spam'
 			),
                         'showScriptName'=>false,
 		),
