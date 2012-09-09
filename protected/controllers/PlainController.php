@@ -1,6 +1,6 @@
 <?php
-Yii::app()->theme = 'biskit';
-class SiteController extends Controller
+
+class PlainController extends Controller
 {
 	/**
 	 * Declares class-based actions.
@@ -42,7 +42,7 @@ class SiteController extends Controller
 	    	if(Yii::app()->request->isAjaxRequest)
 	    		echo $error['message'];
 	    	else
-                        $this->redirect('/404.shtml');
+	        	$this->render('error', $error);
 	    }
 	}
 
@@ -91,6 +91,10 @@ class SiteController extends Controller
 		// display the login form
 		$this->render('login',array('model'=>$model));
 	}
+        
+        public function actionStuff() {
+            $this->render('stuff');
+        }
 
 	/**
 	 * Logs out the current user and redirect to homepage.
@@ -101,8 +105,8 @@ class SiteController extends Controller
 		$this->redirect(Yii::app()->homeUrl);
 	}
         
-        public function actionProg()
+        public function actionDemo()
         {
-            $this->render('programmer');
+            $this->render('demo');
         }
 }
