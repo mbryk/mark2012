@@ -34,14 +34,14 @@ Yii::app()->clientScript->registerScript(
             <div class="control-group">
               <label class="control-label">To</label>
               <div class="controls">
-                <?php echo CHtml::textField('to','shlomo.klapper@gmail.com', array('placeholder'=>'To:')); ?><br>
+                <?php echo CHtml::textField('to','', array('placeholder'=>'shlomo.klapper@gmail.com')); ?><br>
               </div>
             </div>         
             
             <div class="control-group">
             <label class="control-label">How Many?</label>
         <div class="controls">
-            <?php echo CHtml::dropDownList('amount', '3', array('1'=>'1 (Just to mess with him)', '2'=>'2  (This is gonna be fun)', '3'=>'3  (Damn You Klapper)', '4'=>'4  (I\'ve had it with your shenanigans)')); ?>
+            <?php echo CHtml::dropDownList('amount', '2', array('1'=>'1 (Just to mess with him)', '2'=>'2  (This is gonna be fun)', '3'=>'3  (Damn You Klapper)', '4'=>'4  (I\'ve had it with your shenanigans)')); ?>
         </div>
         </div>
             <?php echo CHtml::submitButton('Send It!', array('name'=>'submit', 'class'=>'btn btn-large btn-success')); ?>

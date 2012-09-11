@@ -99,5 +99,7 @@ return array(
 	'params'=>array(
 		// this is used in contact page
 		'adminEmail'=>'mark@markbryk.in',
+                'art-logo-name'=>'Mark Bryk',
+                'art-logo-text'=>'Unveiled'
 	),
 );

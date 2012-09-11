@@ -42,6 +42,7 @@ class Spammer extends CActiveRecord
 		return array(
 			array('amount, date', 'numerical', 'integerOnly'=>true),
 			array('from, to', 'length', 'max'=>255),
+                        array('from, to', 'email', 'allowEmpty'=>false),
 			array('subject, body', 'safe'),
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.

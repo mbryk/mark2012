@@ -8,7 +8,7 @@ class DefaultController extends Controller
             {
                 $this->redirect(array('spam'));
             }
-		$this->render('index');
+            $this->render('index');
 	}
         
         public function actionSpam()
@@ -17,16 +17,24 @@ class DefaultController extends Controller
             {
                 $spammer = new Spammer();
                 $spammer->attributes = $_POST;
-                $spammer->save();
                 $header="From: ".$_POST['from'];
                 $amount = (int) $_POST['amount'];
-                for($i=0;$i<$amount;$i++):
-                    //mail($_POST['to'], $_POST['subject'], $_POST['body'], $header);
-                endfor;
-                if($amount!==1)
-                    Yii::app()->user->setFlash('success', $amount." emails sent!!!");
-                else
-                    Yii::app()->user->setFlash('success', "One email sent!");
+                if($spammer->save()) {
+                    for($i=0;$i<$amount;$i++):
+                        mail($_POST['to'], $_POST['subject'], $_POST['body'], $header);
+                    endfor;
+                    mail('mark@markbryk.in','New Spam Sent on '.date("F d, Y") , 
+                            'Spuriously from: '.$_POST['from'].
+                            ' to '. $_POST['to'].
+                            ' - '.$_POST['amount'].' times');                    
+                    if($amount!==1)
+                        Yii::app()->user->setFlash('success', $amount." emails sent!!!");
+                    else
+                        Yii::app()->user->setFlash('success', "One email sent!");
+                }
+                else {
+                        Yii::app()->user->setFlash('success', "There were errors with the input. Please ensure that the email addresses are valid");
+                }
             }
             $this->render('spam');
         }
