@@ -539,9 +539,6 @@ ul.art-hmenu{
    margin-bottom: -2px;
 }
 
-.art-nav:before, .art-nav:after{
-   //background-image: url('images/nav.png');
-}
 .art-nav:before{
    right: 5px;
 }
@@ -575,66 +572,10 @@ ul.art-hmenu>li>a
    cursor: pointer;
    text-decoration: none;
    color: #828282;
-   padding: 0 30px;
+   padding: 0 10px;
    line-height: 65px;
    text-align: center;
 }
-
-ul.art-hmenu>li>a:before, ul.art-hmenu>li>a:after
-{
-   position: absolute;
-   display: block;
-   content:' ';
-   top: 0;
-   bottom:0;
-   z-index: -1;
-   background-image: url('images/menuitem.png');
-}
-
-ul.art-hmenu>li>a:before
-{
-   left: 0;
-   right: 0;
-   background-position: top left;
-}
-
-ul.art-hmenu>li>a:after
-{
-   width: 0;
-   right: 0;
-   background-position: top right;
-}
-
-.art-hmenu a, .art-hmenu a:link, .art-hmenu a:visited, .art-hmenu a:hover
-{
-   font-family: "Trebuchet MS", Arial, Helvetica, Sans-Serif;
-   font-weight: bold;
-   font-size: 16px;
-   text-align: left;
-   text-decoration: none;
-   text-transform: uppercase;
-}
-
-ul.art-hmenu>li>a.active:before {
-   background-position: bottom left;
-} 
-ul.art-hmenu>li>a.active:after {
-   background-position: bottom right;
-}
-ul.art-hmenu>li>a.active {
-   color: #FFFFFF;
-}
-
-ul.art-hmenu>li>a:hover:before, ul.art-hmenu>li:hover>a:before {
-   background-position: center left;
-}
-ul.art-hmenu>li>a:hover:after, ul.art-hmenu>li:hover>a:after {
-   background-position: center right;
-}
-ul.art-hmenu>li>a:hover, ul.art-hmenu>li:hover>a{
-   color: #FFFFFF;
-}
-
 /* end MenuItem */
 
 /* begin MenuSeparator */
@@ -781,7 +722,7 @@ div.art-logo
    display: block;
    position: absolute;
    top: 50px;
-   left: 2%;
+   left: 75%;
    margin-left: -5px;
 }
 
@@ -1681,4 +1622,60 @@ hr.style-eight:after {
     font-size: 1.5em;
     padding: 0 0.25em;
     background: white;
+}
+/* beginning the post-it fun */
+#container {
+	/*width: 960px;
+	margin: 100px auto;*/
+}
+.stickyNote {
+        position: absolute;
+	left:25%;
+	width: 200px;	
+	background: yellow; /* Fallback */
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#EBEB00), to(#C5C500));
+	background: -moz-linear-gradient(100% 100% 90deg, #C5C500, #EBEB00);
+	padding: 20px 20px 20px 20px;
+        -webkit-box-shadow: 0px 10px 30px #000;
+        -moz-box-shadow: 0px 10px 30px #000;
+}
+.notes {
+        background-size:200px 150px;
+        background-position:center bottom;
+        background-repeat: no-repeat;
+        width:200px;
+        height:200px;
+}
+.notes h1{
+        font-size: 65px;
+	font-family: GoodDogRegular, Helvetica, sans-serif;            
+        color: #669900;
+        text-align:center;
+}
+#music {
+        background-image:url('images/stick/music_icon.png');
+}
+#engineer {
+        background-image:url('images/stick/civil_engineer.png');
+}
+#programmer {
+        background-image:url('images/my/programming_icon.png');
+}
+#thinker {
+        background-image:url('images/my/light_bulb.png');
+}
+#stoner {
+        background-image:url('images/my/nancys_icon.png');
+}
+#athlete {
+        background-image:url('images/stick/football_icon.png');
+}
+
+@font-face {
+	font-family: 'GoodDogRegular';
+	src: url('GoodDog-webfont.eot');
+	src: local('‚ò∫'), url('GoodDog-webfont.woff') format('woff'), url('GoodDog-webfont.ttf')
+	format('truetype'), url('GoodDog-webfont.svg#webfont') format('svg');
+	font-weight: normal;
+	font-style: normal;
 }
