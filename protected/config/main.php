@@ -14,7 +14,7 @@ return array(
 	'name'=>'Mark2012',
 
 	// preloading 'log' component
-	'preload'=>array('log', 'bootstrap'),
+	'preload'=>array('log', 'bootstrap', 'scroll'),
 
 	// autoloading model and component classes
 	'import'=>array(
@@ -94,6 +94,7 @@ return array(
                 'bootstrap'=>array(
                     'class'=>'application.extensions.bootstrap.components.Bootstrap', // assuming you extracted bootstrap under extensions
                 ),                            
+                'scroll'=>array('class'=>'ext.yiinfinite-scroll.YiinfiniteScroller',),                            
 	),
 
 	// application-level parameters that can be accessed
