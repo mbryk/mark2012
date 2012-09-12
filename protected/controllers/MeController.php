@@ -38,18 +38,38 @@ class MeController extends Controller
 	    }
 	}        
         
-        public function actionProg()
+        public function actionProgrammer()
         {
             $this->render('programmer');
         }
         
-        public function actionEng()
+        public function actionEngineer()
         {
             $this->render('engineer');
         }
         
-        public function actionMusic()
+        public function actionMusician()
         {
             $this->render('musician');
         }        
+        
+        public function actionAthlete()
+        {
+            $this->render('athlete');
+        }
+        
+        public function actionStoner()
+        {
+            $this->render('stoner');
+        }
+        
+        public function actionThinker()
+        {
+            $this->render('thinker');
+        }
+        
+        public function actionMore()
+        {
+            $this->render('more');
+        }
 }

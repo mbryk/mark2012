@@ -1,10 +1,8 @@
 <?php $this->pageTitle = Yii::app()->name; ?>
 <!-- demo content for the Artisteer theme -->
 
-<h1 style="text-align: center; font-size: 40px; color:green; padding-top:30px">Who Am I?</h1>
-
-                <div class="art-postcontent">
                     <!--
+<h1 style="text-align: center; font-size: 40px; color:orangered; padding-top:30px">Who Am I?</h1>
 					<div class="art-content-layout">
 						<div class="art-content-layout-row">
 							<div class="art-layout-cell layout-item-0" style="width: 20%;">
@@ -49,26 +47,29 @@
 						</div>
 					</div>
 -->
-                </div>
+<div class="art-headerobject"></div>
+
 
                     <div id="container">	
 	<div class="notes" id="engineer">
-		<h1>Engineer</h1>
+		<h1><a href="engineer">Engineer</a></h1>
 	</div>
 	<div class="notes"  id="programmer">
-		<h1>Programmer</h1>
+		<h1><a href="programmer">Programmer</a></h1>
 	</div>
 	<div class="notes"  id="music">
-		<h1>Musician</h1>
+            <h1><a href="music">Musician</a></h1>
 	</div>
 	<div class="notes"  id="stoner">
-		<h1>Stoner</h1>
+		<h1><a href="stone">Stoner</a></h1>
 	</div>
 	<div class="notes"  id="thinker">
-		<h1>Thinker</h1>
+		<h1><a href="think">Thinker</a></h1>
 	</div>                        
 	<div class="notes"  id="athlete">
-		<h1>Athlete</h1>
-	</div>             
+		<h1><a href="play">Athlete</a></h1>
+	</div> 
                 </div>
                 <div class="cleared"></div>
+                <hr class="style-five" style="margin: 25px 0">
+                <a href="me/more"><button class="btn btn-inverse btn-large more-button"><h1 class="more-txt">And MORE!!!!</h1></button></a>

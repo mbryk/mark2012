@@ -1625,8 +1625,9 @@ hr.style-eight:after {
 }
 /* beginning the post-it fun */
 #container {
-	/*width: 960px;
-	margin: 100px auto;*/
+	width: 900px;
+	margin: 10px auto;
+        padding-top:50px;
 }
 .stickyNote {
         position: absolute;
@@ -1640,14 +1641,17 @@ hr.style-eight:after {
         -moz-box-shadow: 0px 10px 30px #000;
 }
 .notes {
-        background-size:200px 150px;
+        background-size:150px 100px;
         background-position:center bottom;
         background-repeat: no-repeat;
-        width:200px;
-        height:200px;
+        width:150px;
+        height:150px;
+        float:left;
+        position:relative;
+        padding: 20px 45px;
 }
 .notes h1{
-        font-size: 65px;
+        font-size: 50px;
 	font-family: GoodDogRegular, Helvetica, sans-serif;            
         color: #669900;
         text-align:center;
@@ -1662,10 +1666,11 @@ hr.style-eight:after {
         background-image:url('images/my/programming_icon.png');
 }
 #thinker {
-        background-image:url('images/my/light_bulb.png');
+        background-image:url('images/stick/einstein.png');
+        background-size:125px 100px;
 }
 #stoner {
-        background-image:url('images/my/nancys_icon.png');
+        background-image:url('images/stick/stone_icon.png');
 }
 #athlete {
         background-image:url('images/stick/football_icon.png');
@@ -1678,4 +1683,17 @@ hr.style-eight:after {
 	format('truetype'), url('GoodDog-webfont.svg#webfont') format('svg');
 	font-weight: normal;
 	font-style: normal;
+}
+
+.more-button {
+        width:500px; 
+        position:absolute; 
+        left:25%
+}
+
+.more-txt{
+        font-size: 50px;
+	font-family: GoodDogRegular, Helvetica, sans-serif;            
+        color: #669900;
+        text-align:center;    
 }

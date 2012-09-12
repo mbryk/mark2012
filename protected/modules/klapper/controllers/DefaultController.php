@@ -1,5 +1,5 @@
 <?php
-Yii::app()->theme = 'biskit';
+Yii::app()->theme = 'mine';
 class DefaultController extends Controller
 {
 	public function actionIndex()

@@ -42,15 +42,15 @@
 						<div class="art-nav-outer">
 							<div class="art-nav-wrapper">
 								<div class="art-nav-inner">
-                                                                        <a href="http://www.markbryk.in"><img width="<?php echo $this->getUniqueId()=='site' && $this->action->Id=='index' ? '250': '100'; ?>" style="float:left" src="<?php echo Yii::app()->theme->baseUrl; ?>/css/images/my/my_Logo.png" /></a>
+                                                                        <a href="http://www.markbryk.in"><img width="<?php echo $this->getUniqueId()=='site' && $this->action->Id=='index' ? '250': '100'; ?>" style="float:left" src="<?php echo Yii::app()->theme->baseUrl; ?>/css/images/my/my_Logo2.png" /></a>
                                                                     <ul class="art-hmenu">
-                                                                                    <li><a href="http://www.markbryk.in/"><img width="32" height="32" alt="" src="<?php echo Yii::app()->theme->baseUrl; ?>/css/images/my/home_icon2.png" /></a></li>
-                                                                                    <li><a href="http://twitter.com/markdotbryk"><img width="32" height="32" alt="" src="<?php echo Yii::app()->theme->baseUrl; ?>/css/images/twitter_32-2.png" /></a></li>
-                                                                                    <li><a href="http://www.facebook.com/andthefunkybunch/"><img width="32" height="32" alt="" src="<?php echo Yii::app()->theme->baseUrl; ?>/css/images/facebook_32-2.png" /></a></li>
-                                                                                    <li><a href="http://github.com/mbryk"><img width="32" height="32" alt="" src="<?php echo Yii::app()->theme->baseUrl; ?>/css/images/my/github.png" /></a></li>
-                                                                                    <li><a href="http://www.youtube.com/user/andthefunkybunch?feature=mhee"><img width="32" height="32" alt="" src="<?php echo Yii::app()->theme->baseUrl; ?>/css/images/my/youtube.png" /></a></li>
-                                                                                    <li><a href="http://www.markbryk.in/site/contact"><img width="32" height="32" alt="" src="<?php echo Yii::app()->theme->baseUrl; ?>/css/images/my/contact_icon.png" /></a></li>
-                                                                                    <li><a href="http://www.markbryk.in/site/page?view=about"><img width="32" height="32" alt="" src="<?php echo Yii::app()->theme->baseUrl; ?>/css/images/my/help_icon.png" /></a></li>
+                                                                                    <li><a title="Home" href="http://www.markbryk.in/"><img width="32" height="32" alt="" src="<?php echo Yii::app()->theme->baseUrl; ?>/css/images/my/home_icon2.png" /></a></li>
+                                                                                    <li><a title="Twitter" href="http://twitter.com/markdotbryk"><img width="32" height="32" alt="" src="<?php echo Yii::app()->theme->baseUrl; ?>/css/images/twitter_32-2.png" /></a></li>
+                                                                                    <li><a title="Facebook" href="http://www.facebook.com/andthefunkybunch/"><img width="32" height="32" alt="" src="<?php echo Yii::app()->theme->baseUrl; ?>/css/images/facebook_32-2.png" /></a></li>
+                                                                                    <li><a title="Github" href="http://github.com/mbryk"><img width="32" height="32" alt="" src="<?php echo Yii::app()->theme->baseUrl; ?>/css/images/my/github.png" /></a></li>
+                                                                                    <li><a title="Youtube" href="http://www.youtube.com/user/andthefunkybunch?feature=mhee"><img width="32" height="32" alt="" src="<?php echo Yii::app()->theme->baseUrl; ?>/css/images/my/youtube.png" /></a></li>
+                                                                                    <li><a title="Contact Me" href="http://www.markbryk.in/site/contact"><img width="32" height="32" alt="" src="<?php echo Yii::app()->theme->baseUrl; ?>/css/images/my/contact_icon.png" /></a></li>
+                                                                                    <li><a title="About" href="http://www.markbryk.in/site/page?view=about"><img width="32" height="32" alt="" src="<?php echo Yii::app()->theme->baseUrl; ?>/css/images/my/help_icon.png" /></a></li>
                                                                                     <!--<h1 class="art-logo-name"><a href="#"><?php echo isset(Yii::app()->params['art-logo-name']) ? Yii::app()->params['art-logo-name'] : Yii::app()->name; ?></a></h1>
                                                                                     <h2 class="art-logo-text"><?php echo Yii::app()->params['art-logo-text']; ?></h2>-->
                                                                     </ul>
@@ -60,21 +60,6 @@
 						</div>
 					</div>
             <div class="cleared reset-box"></div>
-            
-	<?php if ($this->getUniqueId()=='site' && $this->action->Id=='index'): ?>		
-            <div class="art-header">
-                <div class="art-header-position">
-                <div class="art-header-wrapper">
-					<div class="cleared reset-box"></div>
-                    <div class="art-header-inner">
-                        <div class="art-headerobject"></div>
-                    </div>
-                </div>
-				</div>
-			</div>
-            <?php endif; ?>
-            <div class="cleared reset-box"></div>
-			
 			<div class="art-box art-sheet">
 				<div class="art-box-body art-sheet-body">
 					<div class="art-layout-wrapper">
