@@ -1,3 +1,10 @@
+jQuery(document).ready(function($){
+$("#myTabs").click(function(event){
+    console.log("hello!");
+});
+    
+});
+
 /*window.addEvent('domready', function(){
 	$$('#container div').each(function(drag){
 	new Drag.Move(drag, {

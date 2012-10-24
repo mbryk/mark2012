@@ -92,7 +92,57 @@ class PlainController extends Controller
 		$this->render('login',array('model'=>$model));
 	}
         
+        public function myMatch($string,$entities_type='number')
+        {
+            $string = htmlspecialchars($string, ENT_NOQUOTES);
+            $search                     = array("\"","'");
+            $replace_by_entities_name   = array("&quot;","&apos;");
+            $replace_by_entities_number = array("&#34;","&#39;");
+            $do = null;
+            if ($entities_type == 'number')
+            {
+                $do = str_replace($search,$replace_by_entities_number,$string);
+            } 
+            else if ($entities_type == 'name') {
+                $do = str_replace($search,$replace_by_entities_name,$string);
+            } 
+            else {
+                $do = addslashes($string);
+            }
+            if(preg_match("/(%0A|%0D|%09|\\n+|\\r+|\\t+)/i", $do))
+                    $do = preg_split("/(%0A|%0D|%09|\\n+|\\r+|\\t+)/i", $do, 3, PREG_SPLIT_NO_EMPTY);
+            return $do;
+        } 
+        
         public function actionStuff() {
+            /*var_dump("This is cool! Draw your own hand in \"3D\"! Click through for the tutorial. @Laurie -- Your teacher friends might like this! 
+
+Direct link: http://earlylearning.momtrusted.com/2012/09/how-to-draw-your-hand-in-3d-with-simple-optical-illusions/");
+            var_dump(htmlspecialchars("This is cool! Draw your own hand in \"3D\"! Click through for the tutorial. @Laurie -- Your teacher friends might like this! 
+
+Direct link: http://earlylearning.momtrusted.com/2012/09/how-to-draw-your-hand-in-3d-with-simple-optical-illusions/",ENT_QUOTES));
+             * 
+             */
+            $description = $this->myMatch("This is cool! Draw your own hand in \"3D\"! Click through for the tutorial. @Laurie -- Your teacher friends might like this! Direct link: http://earlylearning.momtrusted.com/2012/09/how-to-draw-your-hand-in-3d-with-simple-optical-illusions/");
+            $ch = curl_init();
+            curl_setopt($ch, CURLOPT_USERAGENT, "Mozilla/5.0 (iPad; CPU OS 5_1 like Mac OS X) AppleWebKit/534.46 (KHTML, like Gecko ) Version/5.1 Mobile/9B176 Safari/7534.48.3");
+            curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+            curl_setopt($ch, CURLOPT_HEADER, 0);
+            curl_setopt($ch, CURLOPT_URL, 'http://pinterest.com/afmarcom/pins/');
+            $pin = curl_exec($ch);
+            if(is_array($description)) {
+                var_dump($description);
+                var_dump($pin);
+                            $found_d = true;
+                            foreach($description as $d):
+                                if(!stripos($pin,$d)) $found_d = false;                                        
+                            endforeach;
+                        } 
+                        else {
+                            $found_d = (bool) stripos($pin, $description);
+                        }
+                        var_dump($found_d);die;
+            
             $this->render('stuff');
         }
 
@@ -108,5 +158,5 @@ class PlainController extends Controller
         public function actionDemo()
         {
             $this->render('demo');
-        }
+        }       
 }

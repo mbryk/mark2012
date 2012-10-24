@@ -63,11 +63,6 @@ class MeController extends Controller
             $this->render('stoner');
         }
         
-        public function actionThinker()
-        {
-            $this->render('thinker');
-        }
-        
         public function actionMore()
         {
             $this->render('more');

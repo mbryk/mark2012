@@ -1,11 +1,4 @@
-<?php
-$this->pageTitle=Yii::app()->name . ' - Contact Us';
-$this->breadcrumbs=array(
-	'Contact',
-);
-?>
-
-<h1>Contact Us</h1>
+<h1>Contact Me</h1>
 
 <?php if(Yii::app()->user->hasFlash('contact')): ?>
 
@@ -16,9 +9,10 @@ $this->breadcrumbs=array(
 <?php else: ?>
 
 <p>
-If you have business inquiries or other questions, please fill out the following form to contact us. Thank you.
+If there's something strange in your neighborhood, Who ya gonna call?
 </p>
-
+<br>
+<hr class="style-one">
 <div class="form">
 
 <?php $form=$this->beginWidget('CActiveForm', array(
@@ -56,6 +50,7 @@ If you have business inquiries or other questions, please fill out the following
 		<?php echo $form->textArea($model,'body',array('rows'=>6, 'cols'=>50)); ?>
 		<?php echo $form->error($model,'body'); ?>
 	</div>
+<hr class="style-one">
 
 	<?php if(CCaptcha::checkRequirements()): ?>
 	<div class="row">

@@ -7,19 +7,23 @@
         -->
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
         <title><?php echo CHtml::encode(Yii::app()->name); ?></title>
+        <link rel="icon" href="<?php echo Yii::app()->theme->baseUrl; ?>/css/images/my/clear_cool.ico" type="image/x-icon" />
 
         <link rel="stylesheet" href="<?php echo Yii::app()->theme->baseUrl; ?>/css/style.css" type="text/css" media="screen, projection" />
-        <link href="../assets/css/bootstrap.css" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->theme->baseUrl; ?>/css/shadowbox.css" />
+        <link href="../assets/css/bootstrap.css" rel="stylesheet" >
         <link href="../assets/css/bootstrap-responsive.css" rel="stylesheet">		
-        
-        <!-- <link rel="stylesheet" href="<?php echo Yii::app()->theme->baseUrl; ?>/css/form.css" type="text/css" media="screen, projection" /> -->
-        <!--[if IE 6]><link rel="stylesheet" href="<?php echo Yii::app()->theme->baseUrl; ?>/css/style.ie6.css" type="text/css" media="screen" /><![endif]-->
-        <!--[if IE 7]><link rel="stylesheet" href="<?php echo Yii::app()->theme->baseUrl; ?>/css/style.ie7.css" type="text/css" media="screen" /><![endif]-->
 
-        <script type="text/javascript" src="<?php echo Yii::app()->theme->baseUrl; ?>/css/jquery.js"></script>
+        
+
         <script type="text/javascript" src="<?php echo Yii::app()->theme->baseUrl; ?>/css/script.js"></script>
         <script src="//ajax.googleapis.com/ajax/libs/mootools/1.1.1/mootools-yui-compressed.js"></script>
+        <script type="text/javascript" src="<?php echo Yii::app()->theme->baseUrl; ?>/js/shadowbox.js"></script>
         <script type="text/javascript" src="<?php echo Yii::app()->theme->baseUrl; ?>/js/main.js"></script>
+        
+        <script type="text/javascript">
+            Shadowbox.init();
+        </script>        
         
 <script type="text/javascript">
 
@@ -47,10 +51,11 @@
                                                                                     <li><a title="Home" href="http://www.markbryk.in/"><img width="32" height="32" alt="" src="<?php echo Yii::app()->theme->baseUrl; ?>/css/images/my/home_icon2.png" /></a></li>
                                                                                     <li><a title="Twitter" href="http://twitter.com/markdotbryk"><img width="32" height="32" alt="" src="<?php echo Yii::app()->theme->baseUrl; ?>/css/images/twitter_32-2.png" /></a></li>
                                                                                     <li><a title="Facebook" href="http://www.facebook.com/andthefunkybunch/"><img width="32" height="32" alt="" src="<?php echo Yii::app()->theme->baseUrl; ?>/css/images/facebook_32-2.png" /></a></li>
-                                                                                    <li><a title="Github" href="http://github.com/mbryk"><img width="32" height="32" alt="" src="<?php echo Yii::app()->theme->baseUrl; ?>/css/images/my/github.png" /></a></li>
+                                                                                    <li><a title="8tracks" href="http://8tracks.com/andthefunkybunch"> <img width="32" height="32" src="http://8tracks.com/images/badges/50_px_8chichlet_white_blueBG.png" /> </a></li>
                                                                                     <li><a title="Youtube" href="http://www.youtube.com/user/andthefunkybunch?feature=mhee"><img width="32" height="32" alt="" src="<?php echo Yii::app()->theme->baseUrl; ?>/css/images/my/youtube.png" /></a></li>
-                                                                                    <li><a title="Contact Me" href="http://www.markbryk.in/site/contact"><img width="32" height="32" alt="" src="<?php echo Yii::app()->theme->baseUrl; ?>/css/images/my/contact_icon.png" /></a></li>
-                                                                                    <li><a title="About" href="http://www.markbryk.in/site/page?view=about"><img width="32" height="32" alt="" src="<?php echo Yii::app()->theme->baseUrl; ?>/css/images/my/help_icon.png" /></a></li>
+                                                                                    <li><a title="Github" href="http://github.com/mbryk"><img width="32" height="32" alt="" src="<?php echo Yii::app()->theme->baseUrl; ?>/css/images/my/github.png" /></a></li>
+                                                                                    <li><a title="Contact Me" href="/site/contact"><img width="32" height="32" alt="" src="<?php echo Yii::app()->theme->baseUrl; ?>/css/images/my/contact_icon.png" /></a></li>
+                                                                                    <li><a title="About" href="/site/page?view=about"><img width="32" height="32" alt="" src="<?php echo Yii::app()->theme->baseUrl; ?>/css/images/my/help_icon.png" /></a></li>
                                                                                     <!--<h1 class="art-logo-name"><a href="#"><?php echo isset(Yii::app()->params['art-logo-name']) ? Yii::app()->params['art-logo-name'] : Yii::app()->name; ?></a></h1>
                                                                                     <h2 class="art-logo-text"><?php echo Yii::app()->params['art-logo-text']; ?></h2>-->
                                                                     </ul>

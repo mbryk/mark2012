@@ -64,7 +64,7 @@
 		<h1><a href="stone">Stoner</a></h1>
 	</div>
 	<div class="notes"  id="thinker">
-		<h1><a href="think">Thinker</a></h1>
+		<h1><a href="http://think.markbryk.in">Thinker</a></h1>
 	</div>                        
 	<div class="notes"  id="athlete">
 		<h1><a href="play">Athlete</a></h1>
