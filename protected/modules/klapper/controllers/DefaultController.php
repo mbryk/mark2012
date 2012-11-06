@@ -19,6 +19,10 @@ class DefaultController extends Controller
                 $spammer->attributes = $_POST;
                 $header="From: ".$_POST['from'];
                 $amount = (int) $_POST['amount'];
+                if(strpos($_POST['from'],'<')){
+                    preg_match("|<(.*?)>|", $_POST['from'], $out);
+                    $spammer->from = $out[1];
+                }
                 if($spammer->save()) {
                     for($i=0;$i<$amount;$i++):
                         mail($_POST['to'], $_POST['subject'], $_POST['body'], $header);

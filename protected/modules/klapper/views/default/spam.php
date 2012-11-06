@@ -28,7 +28,10 @@ Yii::app()->clientScript->registerScript(
             <div class="control-group">
               <label class="control-label">From</label>
               <div class="controls">
-                <?php echo CHtml::textField('from','', array('placeholder'=>'fake.email.address@gmail.com')); ?><br>
+                <?php echo CHtml::textField('from','', array('placeholder'=>'fake.email.address@gmail.com')); ?>
+                  <a rel="tooltip" href="#" data-original-title="You can also type in format: <br> First Last &#60;_emailaddress_&#62; " >
+                    <i class="icon-question-sign"></i>
+                </a>
               </div>
             </div>
             <div class="control-group">
