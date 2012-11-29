@@ -1610,6 +1610,7 @@ hr.style-eight:after {
 }
 /* beginning the post-it fun */
 #container {
+    position: relative;
 	width: 900px;
 	margin: 10px auto;
         padding-top:50px;
