@@ -20,7 +20,13 @@
 	</div>                        
 	<div class="notes"  id="athlete">
 		<h1><a href="play">Athlete</a></h1>
-	</div> 
+	</div>
+        <div class="notes" id="artist">
+		<h1><a href="artist">Artist</a></h1>
+	</div>                        
+        <div class="notes" id="student">
+		<h1><a href="student">Student</a></h1>
+	</div>                        
                 </div>
                 <div class="cleared"></div>
                 <hr class="style-five" style="margin: 25px 0">

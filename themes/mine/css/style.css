@@ -701,21 +701,6 @@ div.art-header
 
 /* end Header */
 
-/* begin HeaderObject */
-div.art-headerobject
-{
-   display: block;
-   left: 100%;
-   margin-left: -325px;
-   position: absolute;
-   top: 35px;
-   width: 325px;
-   height: 400px;
-   background-image: url('images/my/clear_cool.png');
-   
-}
-/* end HeaderObject */
-
 /* begin Logo */
 div.art-logo
 {
@@ -1675,6 +1660,12 @@ hr.style-eight:after {
 #athlete {
         background-image:url('images/stick/football_icon.png');
 }
+#artist {
+        background-image:url('images/stick/art.png');
+}
+#student{
+        background-image:url('images/stick/student.png');
+}
 
 @font-face {
 	font-family: 'GoodDogRegular';
@@ -1700,4 +1691,16 @@ hr.style-eight:after {
 
 .nav-tabs > .active > a, .nav-tabs > .active > a:hover {
     background-color: #E7AAAA;
+}
+
+div.art-headerobject
+{
+   display: block;
+   left: 100%;
+   margin-left: -325px;
+   position: absolute;
+   top: 35px;
+   width: 325px;
+   height: 400px;
+   background-image: url('images/my/clear_cool.png');
 }
