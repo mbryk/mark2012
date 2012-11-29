@@ -1,5 +1,5 @@
 <?php
-Yii::app()->theme = 'mine';
+Yii::app()->theme = 'new';
 class SiteController extends Controller
 {
 	/**

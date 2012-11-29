@@ -1,5 +1,4 @@
 <?php $this->pageTitle = Yii::app()->name; ?>
-<div class="art-headerobject"></div>
 
                     <div id="container">	
 	<div class="notes" id="engineer">
@@ -24,7 +23,7 @@
 		<h1><a href="artist">Artist</a></h1>
 	</div>                        
         <div class="notes" id="student">
-		<h1><a href="student">Student</a></h1>
+		<h1><a href="job">Resume</a></h1>
 	</div>                        
                 </div>
                 <div class="cleared"></div>

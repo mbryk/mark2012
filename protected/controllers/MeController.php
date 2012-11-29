@@ -1,5 +1,5 @@
 <?php
-Yii::app()->theme = 'mine';
+Yii::app()->theme = 'new';
 class MeController extends Controller
 {
 	/**
@@ -66,5 +66,13 @@ class MeController extends Controller
         public function actionMore()
         {
             $this->render('more');
+        }
+        public function actionArtist()
+        {
+            $this->render('artist');
+        }
+        public function actionResume()
+        {
+            $this->render('resume');
         }
 }

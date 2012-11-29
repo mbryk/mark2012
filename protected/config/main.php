@@ -59,6 +59,8 @@ return array(
                                 'play'=>'me/athlete',
                                 'think'=>'me/thinker',
                                 'stone'=>'me/stoner',                            
+                                'artist'=>'me/artist',                            
+                                'resume'=>'me/resume',                            
                                 'hillel'=>'site/hillel',                            
 			),
                         'showScriptName'=>false,
