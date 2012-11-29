@@ -59,6 +59,7 @@ return array(
                                 'play'=>'me/athlete',
                                 'think'=>'me/thinker',
                                 'stone'=>'me/stoner',                            
+                                'hillel'=>'site/hillel',                            
 			),
                         'showScriptName'=>false,
 		),
@@ -93,6 +94,7 @@ return array(
 		),
                 'bootstrap'=>array(
                     'class'=>'application.extensions.bootstrap.components.Bootstrap', // assuming you extracted bootstrap under extensions
+                    'responsiveCss'=>true,
                 ),                            
                 'scroll'=>array('class'=>'ext.yiinfinite-scroll.YiinfiniteScroller',),                            
 	),

@@ -11,10 +11,6 @@
 
         <link rel="stylesheet" href="<?php echo Yii::app()->theme->baseUrl; ?>/css/style.css" type="text/css" media="screen, projection" />
         <link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->theme->baseUrl; ?>/css/shadowbox.css" />
-        <link href="../assets/css/bootstrap.css" rel="stylesheet" >
-        <link href="../assets/css/bootstrap-responsive.css" rel="stylesheet">		
-
-        
 
         <script type="text/javascript" src="<?php echo Yii::app()->theme->baseUrl; ?>/css/script.js"></script>
         <script src="//ajax.googleapis.com/ajax/libs/mootools/1.1.1/mootools-yui-compressed.js"></script>
@@ -22,7 +18,10 @@
         <script type="text/javascript" src="<?php echo Yii::app()->theme->baseUrl; ?>/js/main.js"></script>
         
         <script type="text/javascript">
-            Shadowbox.init();
+            Shadowbox.init({
+    displayNav:         true,
+    continuous:         true
+});
         </script>        
         
 <script type="text/javascript">
@@ -56,6 +55,9 @@
                                                                                     <li><a title="Github" href="http://github.com/mbryk"><img width="32" height="32" alt="" src="<?php echo Yii::app()->theme->baseUrl; ?>/css/images/my/github.png" /></a></li>
                                                                                     <li><a title="Contact Me" href="/site/contact"><img width="32" height="32" alt="" src="<?php echo Yii::app()->theme->baseUrl; ?>/css/images/my/contact_icon.png" /></a></li>
                                                                                     <li><a title="About" href="/site/page?view=about"><img width="32" height="32" alt="" src="<?php echo Yii::app()->theme->baseUrl; ?>/css/images/my/help_icon.png" /></a></li>
+                                                                                    <?php if ($this->getUniqueId()=='site' && $this->action->Id=='hillel'): ?> 
+                                                                                        <li><a title="Go to co.nr" href="http://co.nr"><img width="32" height="32" alt="" src="<?php echo Yii::app()->theme->baseUrl; ?>/css/images/my/help_icon.png" /></a></li>
+                                                                                    <?php endif ?>
                                                                                     <!--<h1 class="art-logo-name"><a href="#"><?php echo isset(Yii::app()->params['art-logo-name']) ? Yii::app()->params['art-logo-name'] : Yii::app()->name; ?></a></h1>
                                                                                     <h2 class="art-logo-text"><?php echo Yii::app()->params['art-logo-text']; ?></h2>-->
                                                                     </ul>

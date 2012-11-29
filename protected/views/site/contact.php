@@ -52,7 +52,7 @@ If there's something strange in your neighborhood, Who ya gonna call?
 	</div>
 <hr class="style-one">
 
-	<?php if(CCaptcha::checkRequirements()): ?>
+	<?php if(0):if(CCaptcha::checkRequirements()): ?>
 	<div class="row">
 		<?php echo $form->labelEx($model,'verifyCode'); ?>
 		<div>
@@ -63,7 +63,7 @@ If there's something strange in your neighborhood, Who ya gonna call?
 		<br/>Letters are not case-sensitive.</div>
 		<?php echo $form->error($model,'verifyCode'); ?>
 	</div>
-	<?php endif; ?>
+	<?php endif;endif; ?>
 
 	<div class="row buttons">
 		<?php echo CHtml::submitButton('Submit'); ?>

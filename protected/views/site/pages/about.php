@@ -11,10 +11,12 @@ $this->breadcrumbs=array(
 	<div class="art-content-layout-row">
 		<div class="art-layout-cell layout-item-about" style="width: 100%;">
 		
-			<p>This is a "static" page. You may change the content of this page
-			by updating the file <b><?php echo __FILE__; ?></b></p> <br />
-			
-                        <h1>Hillel, Go screw yourself!</h1>
+                    <p>
+                        Check out <a href="http://markbryk.in">my portfolio site</a> to learn more about me.
+                    </p>
+                    <p>
+                        Hmm, a bit recursive. Oops...
+                    </p>
 		</div>
 	</div>
 </div>
