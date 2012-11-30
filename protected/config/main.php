@@ -60,7 +60,7 @@ return array(
                                 'think'=>'me/thinker',
                                 'stone'=>'me/stoner',                            
                                 'artist'=>'me/artist',                            
-                                'resume'=>'me/resume',                            
+                                'job'=>'me/job',                            
                                 'hillel'=>'site/hillel',                            
 			),
                         'showScriptName'=>false,

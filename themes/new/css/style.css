@@ -190,9 +190,9 @@ hr.style-eight:after {
 
 @font-face {
 	font-family: 'GoodDogRegular';
-	src: url('GoodDog-webfont.eot');
-	src: local('‚ò∫'), url('GoodDog-webfont.woff') format('woff'), url('GoodDog-webfont.ttf')
-	format('truetype'), url('GoodDog-webfont.svg#webfont') format('svg');
+	src: url('fonts/GoodDog-webfont.eot');
+	src: local('‚ò∫'), url('fonts/GoodDog-webfont.woff') format('woff'), url('fonts/GoodDog-webfont.ttf')
+	format('truetype'), url('fonts/GoodDog-webfont.svg#webfont') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }

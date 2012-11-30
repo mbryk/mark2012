@@ -61,7 +61,7 @@
             </div>
             <div class="main-container" <?php if($this->getUniqueId()=='site' && $this->action->Id=='index'): ?> style="padding-top:50px" <?php endif; ?>>
                 <?php if(!strstr(strtolower($_SERVER['HTTP_USER_AGENT']), 'mobile') || strstr(strtolower($_SERVER['HTTP_USER_AGENT']), 'android')): ?>
-                <div class="art-headerobject"></div>
+                <!--<div class="art-headerobject"></div>-->
                 <?php endif; ?>
 							<?php echo $content; ?>
             </div>

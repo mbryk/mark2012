@@ -71,8 +71,8 @@ class MeController extends Controller
         {
             $this->render('artist');
         }
-        public function actionResume()
+        public function actionJob()
         {
-            $this->render('resume');
+            $this->render('job');
         }
 }
