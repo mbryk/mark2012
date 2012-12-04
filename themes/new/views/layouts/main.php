@@ -38,8 +38,8 @@
                 <a href="http://www.markbryk.in"><img width="<?php echo $this->getUniqueId()=='site' && $this->action->Id=='index' ? '250': '100'; ?>" style="float:left" src="<?php echo Yii::app()->theme->baseUrl; ?>/images/my/my_Logo2.png" /></a>
                 <ul class="header-menu">
                     <li><a title="Home" href="http://www.markbryk.in/"><img width="32" height="32" alt="" src="<?php echo Yii::app()->theme->baseUrl; ?>/images/my/home_icon2.png" /></a></li>
-                    <li><a title="Twitter" href="http://twitter.com/markdotbryk"><img width="32" height="32" alt="" src="<?php echo Yii::app()->theme->baseUrl; ?>/images/icons/twitter_32-2.png.png" /></a></li>
-                    <li><a title="Facebook" href="http://www.facebook.com/andthefunkybunch/"><img width="32" height="32" alt="" src="<?php echo Yii::app()->theme->baseUrl; ?>/images/icons/facebook_32-2.png.png" /></a></li>
+                    <li><a title="Twitter" href="http://twitter.com/markdotbryk"><img width="32" height="32" alt="" src="<?php echo Yii::app()->theme->baseUrl; ?>/images/icons/twitter_32-2.png" /></a></li>
+                    <li><a title="Facebook" href="http://www.facebook.com/andthefunkybunch/"><img width="32" height="32" alt="" src="<?php echo Yii::app()->theme->baseUrl; ?>/images/icons/facebook_32-2.png" /></a></li>
                     <li><a title="8tracks" href="http://8tracks.com/andthefunkybunch"> <img width="32" height="32" src="http://8tracks.com/images/badges/50_px_8chichlet_white_blueBG.png" style="border-radius:2px" /> </a></li>
                     <li><a title="Youtube" href="http://www.youtube.com/user/andthefunkybunch?feature=mhee"><img width="32" height="32" alt="" src="<?php echo Yii::app()->theme->baseUrl; ?>/images/icons/youtube_icon.png" /></a></li>
                     <li><a title="Github" href="http://github.com/mbryk"><img width="32" height="32" alt="" src="<?php echo Yii::app()->theme->baseUrl; ?>/images/icons/github.png" /></a></li>

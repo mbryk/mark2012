@@ -1,0 +1,142 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+margin: 0;
+padding: 0;
+border: 0;
+outline: 0;
+font-weight: inherit;
+font-style: inherit;
+font-size: 100%;
+font-family: inherit;
+}
+ul.thumb {
+position: relative;
+list-style-type: none;
+}
+
+.thumbFade, .animated, .slideHeader, .gallery, .containerfadeIn, .containerfadeOut, .thumb li span.fadeInDown {
+-webkit-animation-duration: 0.6s;
+-moz-animation-duration: 0.6s;
+-ms-animation-duration: 0.6s;
+-o-animation-duration: 0.6s;
+animation-duration: 0.6s;
+-webkit-animation-fill-mode: both;
+-moz-animation-fill-mode: both;
+-ms-animation-fill-mode: both;
+-o-animation-fill-mode: both;
+animation-fill-mode: both;
+}
+.bounceTop1 {
+-webkit-animation-fill-mode: backwards;
+-moz-animation-fill-mode: backwards;
+-ms-animation-fill-mode: backwards;
+-o-animation-fill-mode: backwards;
+animation-fill-mode: backwards;
+-webkit-animation-name: bounceTop1;
+-moz-animation-name: bounceTop1;
+-ms-animation-name: bounceTop1;
+-o-animation-name: bounceTop1;
+animation-name: bounceTop1;
+}
+ul.thumb li {
+float: left;
+height: 257px;
+width: 232px;
+margin: 80px 37px 0 0;
+-webkit-transition: opacity 0.3s ease;
+-moz-transition: opacity 0.3s ease;
+-o-transition: opacity 0.3s ease;
+transition: opacity 0.3s ease;
+-webkit-transition-delay: 0.3s;
+-moz-transition-delay: 0.3s;
+-o-transition-delay: 0.3s;
+transition-delay: 0.3s;
+}
+.thumb li:nth-child(1) {
+-webkit-animation-delay: 0.3s;
+-moz-animation-delay: 0.3s;
+-ms-animation-delay: 0.3s;
+-o-animation-delay: 0.3s;
+animation-delay: 0.3s;
+}
+.firstTime .thumb li:nth-child(1) {
+-webkit-animation-delay: 1.2s;
+-moz-animation-delay: 1.2s;
+-ms-animation-delay: 1.2s;
+-o-animation-delay: 1.2s;
+animation-delay: 1.2s;
+}
+
+ul.thumb li a {
+text-decoration: none;
+}
+.thumbContainer {
+width: 273px;
+height: 293px;
+position: relative;
+display: block;
+left: -25px;
+top: -10px;
+overflow: hidden;
+}
+.mask {
+-webkit-transition: all 0.3s ease;
+-moz-transition: all 0.3s ease;
+-o-transition: all 0.3s ease;
+transition: all 0.3s ease;
+position: absolute;
+background: url(../images/thumbMask.png) no-repeat center;
+left: 0;
+top: 0;
+width: 273px;
+height: 293px;
+z-index: 999;
+}
+.thumbContainer img {
+position: absolute;
+left: 1px;
+top: 1px;
+width: 271px;
+height: 291px;
+z-index: 990;
+}
+ul.thumb li img {
+-webkit-transition: all 0.3s ease;
+-moz-transition: all 0.3s ease;
+-o-transition: all 0.3s ease;
+transition: all 0.3s ease;
+}
+.thumb li:nth-child(1) span.fadeInDown {
+-webkit-animation-delay: 0.8s;
+-moz-animation-delay: 0.8s;
+-ms-animation-delay: 0.8s;
+-o-animation-delay: 0.8s;
+animation-delay: 0.8s;
+}
+
+.firstTime .thumb li:nth-child(1) span.fadeInDown {
+-webkit-animation-delay: 1.7s;
+-moz-animation-delay: 1.7s;
+-ms-animation-delay: 1.7s;
+-o-animation-delay: 1.7s;
+animation-delay: 1.7s;
+}
+ul.thumb > li > a span {
+width: 232px;
+display: block;
+padding: 5px 0;
+text-align: center;
+color: #F89C6E;
+text-decoration: none;
+text-transform: uppercase;
+font-family: "RonniaExtraboldRegular", Helvetica, Arial, Sans-serif;
+}
+
+
+
+
+*{
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+}

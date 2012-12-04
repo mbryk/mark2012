@@ -15,7 +15,9 @@ ol
 {
    list-style-position: inside;
 }
-
+a{
+    color: #92D7FA;
+}
 html, body
 {
    height:100%;
@@ -26,12 +28,16 @@ body
    padding: 0;
    margin:0;
    width: 100%;
-   color: #404040;
+   /*color: #404040;
    background-color: #FFFFFF;
    background-image: url('../images/Bottom_texture.jpg');
    background-repeat: repeat-x;
    background-attachment: scroll;
-   background-position: top left;
+   background-position: top left;*/
+   background: url(../images/bg.jpg) repeat #6DA2A3;
+   color: #E0DFDF;
+   text-shadow: #386C6C 0px 1px 1px; 
+   
 }
 .header{
     width: 1000px;
@@ -132,9 +138,19 @@ hr.style-eight:after {
     top: -0.7em;  
     font-size: 1.5em;
     padding: 0 0.25em;
-    background: white;
+    background: transparent;
 }
 /* beginning the post-it fun */
+#front-title{
+    line-height:1;font-family: GoodDogRegular, Helvetica, sans-serif; text-transform: uppercase;font-size: 142px;text-align: center;color: white;
+}
+.shelf{
+    width: 100%;
+    height: 300px;
+    opacity: .8;
+    position: absolute;
+    bottom: 0px;
+}
 .stickyNote {
         position: absolute;
 	left:25%;
@@ -147,20 +163,61 @@ hr.style-eight:after {
         -moz-box-shadow: 0px 10px 30px #000;
 }
 .notes {
-        background-size:150px 100px;
-        background-position:center bottom;
+    -webkit-transform: scale(1.15);
+    -moz-transform: scale(1.15);
+    -ms-transform: scale(1.15);
+    -o-transform: scale(1.15);
+    transform: scale(1.15);
+    background-size:150px 110px;
+    background-position:center top;
+    background-repeat: no-repeat;
+    padding: 0px 45px 15px 45px;
+    width:150px;
+    height:150px;
+    float:left;
+    position:relative;
+        /*background-size: cover;
         background-repeat: no-repeat;
-        width:150px;
-        height:150px;
-        float:left;
-        position:relative;
-        padding: 20px 45px;
+        margin-left: 2rem;
+        margin-right: 2rem;
+        border-radius: 50% 50% 10px 10px;
+        box-shadow: inset 0 0 100px rgba(0, 0, 0, 1);*/
+}
+.notes:nth-last-of-type{
+    background-position: center right;
+}
+.notes-back{
+    -webkit-transform: scale(.75);
+    -moz-transform: scale(.75);
+    -ms-transform: scale(.75);
+    -o-transform: scale(.75);
+    transform: scale(.75);
+    padding: 0 25px 20px 25px;
+    background-position: center center;
+}
+.notes-back:nth-of-type(1){
+    margin-left: 10%;
+    background-position: center right;
+}
+.notes-back:nth-last-of-type{
+    margin-right: 10%;
+    background-position: center left;
 }
 .notes h1{
+    position:absolute;
+    bottom: 30px;
+    line-height: 50px;
+    display:none;
+}
+.notes h1 a{
         font-size: 50px;
 	font-family: GoodDogRegular, Helvetica, sans-serif;            
-        color: #669900;
+        color: #ABDA99;
         text-align:center;
+}
+.notes h1 a:hover{
+    text-decoration: none;
+    color: white; 
 }
 #music {
         background-image:url('../images/stick/music_icon.png');
@@ -172,8 +229,7 @@ hr.style-eight:after {
         background-image:url('../images/stick/programming_icon.png');
 }
 #thinker {
-        background-image:url('../images/stick/einstein.png');
-        background-size:125px 100px;
+        background-image:url('../images/stick/thinking_man_statue.png');
 }
 #stoner {
         background-image:url('../images/stick/stone_icon.png');
@@ -217,7 +273,7 @@ hr.style-eight:after {
 h1.title{
     font-size: 75px;
     font-family: GoodDogRegular, Helvetica, sans-serif;            
-    color: #1f6377;
+    color: white;
     text-align:center;
     cursor: default;
 }
@@ -234,4 +290,43 @@ div.art-headerobject
 }
 .tab-content {
     overflow-x: hidden
+}
+
+#CT h2 {
+  font: 400 40px/1.5 Helvetica, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+ 
+.courses {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+ 
+.courses li {
+  font: 200 20px/1.5 Helvetica, Verdana, sans-serif;
+  border-bottom: 1px solid #ccc;
+}
+ 
+.courses li:last-child {
+  border: none;
+}
+ 
+.courses li a {
+  text-decoration: none;
+  color: #000;
+  display: block;
+  width: 200px;
+ 
+  -webkit-transition: font-size 0.3s ease, background-color 0.3s ease;
+  -moz-transition: font-size 0.3s ease, background-color 0.3s ease;
+  -o-transition: font-size 0.3s ease, background-color 0.3s ease;
+  -ms-transition: font-size 0.3s ease, background-color 0.3s ease;
+  transition: font-size 0.3s ease, background-color 0.3s ease;
+}
+ 
+.courses li a:hover {
+  font-size: 30px;
+  background: #f6f6f6;
 }

@@ -149,7 +149,8 @@
                   
                   
                 <div class="tab-pane" id="CT">
-                    <ul>
+                    <h2>Courses Taken</h2>
+                    <ul class="courses" style="width:50%; float:left">
                         <li>Ch111</li>
                         <li>Ch160</li>
                         <li>HSS1</li>
@@ -162,6 +163,8 @@
                         <li>ECE161</li>
                         <li>HSS2</li>
                         <li>Ma223</li>
+                    </ul>
+                    <ul class="courses" style="width:50%; float:right">
                         <li>Ma240</li>
                         <li>Ph112</li>
                         <li>ECE140</li>
@@ -172,8 +175,10 @@
                         <li>HSS3</li>
                         <li>Intro to Philosophy</li>
                         <li>Micro Economics</li>
-                        <li>Foundations of Finance?</li>
+                        <li style="border-bottom: 1px solid #CCC;">Foundations of Finance?</li>
                     </ul>
                 </div>
               </div>
 </div>
+
+<?php Yii::app()->clientScript->registerCss('tableHover', 'tr:hover td{background-color:#E77474!important;};', CClientScript::POS_HEAD)?>
