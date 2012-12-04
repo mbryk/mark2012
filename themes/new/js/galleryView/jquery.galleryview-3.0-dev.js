@@ -927,6 +927,15 @@ if (typeof Object.create !== 'function') {
 			$(document).bind('mousemove.galleryview',function(e) {
 				self.mouse = {x: e.pageX, y: e.pageY};	   
 			});
+                        $(document).keydown(function(e){
+                            if ((e.keyCode == 37)||(e.keyCode == 38)) { 
+                                self.showPrev();
+                            }
+                            if ((e.keyCode == 39)||(e.keyCode == 40)) { 
+                                self.showNext();
+                            }
+                            return false;
+                        });
 			
 			// create all necessary DOM elements
 			$.each(this.elems,function(i,elem) {

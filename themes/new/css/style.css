@@ -200,7 +200,8 @@ hr.style-eight:after {
 .more-button {
         width:500px; 
         position:absolute; 
-        left:25%
+        left:25%;
+        border-bottom-left-radius: 75px 50px;border-bottom-right-radius: 75px 50px;
 }
 
 .more-txt{

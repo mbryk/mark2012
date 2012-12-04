@@ -1,3 +1,4 @@
+<a href="<?php echo Yii::app()->theme->baseUrl ?>/images/my/Shalhevet3.wmv">OP NYU</a>
 <hr class="style-five">
 <div class="tabbable tabs-right">
               <ul class="nav nav-tabs" id="myTabs">
@@ -30,3 +31,7 @@
                 </div>
               </div>
 </div>
+<?php
+Yii::app()->clientScript->registerScriptFile('http://vjs.zencdn.net/c/video.js',CClientScript::POS_HEAD);
+Yii::app()->clientScript->registerCssFile('http://vjs.zencdn.net/c/video-js.css',CClientScript::POS_HEAD);
+        ?>

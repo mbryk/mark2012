@@ -12,21 +12,12 @@
         <?php 
         Yii::app()->clientScript->registerCssFile(Yii::app()->theme->baseUrl.'/css/style.css');
         Yii::app()->clientScript->registerCssFile(Yii::app()->theme->baseUrl.'/css/form.css');
-        Yii::app()->clientScript->registerCssFile(Yii::app()->theme->baseUrl.'/css/shadowbox.css');
         
         Yii::app()->clientScript->registerScriptFile(Yii::app()->theme->baseUrl.'/css/script.js');
         Yii::app()->clientScript->registerScriptFile("//ajax.googleapis.com/ajax/libs/mootools/1.1.1/mootools-yui-compressed.js");
-        Yii::app()->clientScript->registerScriptFile(Yii::app()->theme->baseUrl.'/js/shadowbox.js');
         Yii::app()->clientScript->registerScriptFile(Yii::app()->theme->baseUrl.'/js/main.js');
         ?>
 
-        <script type="text/javascript">
-            Shadowbox.init({
-    displayNav:         true,
-    continuous:         true
-});
-        </script>        
-        
 <script type="text/javascript">
 
   var _gaq = _gaq || [];
@@ -47,21 +38,21 @@
                 <a href="http://www.markbryk.in"><img width="<?php echo $this->getUniqueId()=='site' && $this->action->Id=='index' ? '250': '100'; ?>" style="float:left" src="<?php echo Yii::app()->theme->baseUrl; ?>/images/my/my_Logo2.png" /></a>
                 <ul class="header-menu">
                     <li><a title="Home" href="http://www.markbryk.in/"><img width="32" height="32" alt="" src="<?php echo Yii::app()->theme->baseUrl; ?>/images/my/home_icon2.png" /></a></li>
-                    <li><a title="Twitter" href="http://twitter.com/markdotbryk"><img width="32" height="32" alt="" src="<?php echo Yii::app()->theme->baseUrl; ?>/images/twitter_32-2.png" /></a></li>
-                    <li><a title="Facebook" href="http://www.facebook.com/andthefunkybunch/"><img width="32" height="32" alt="" src="<?php echo Yii::app()->theme->baseUrl; ?>/images/facebook_32-2.png" /></a></li>
+                    <li><a title="Twitter" href="http://twitter.com/markdotbryk"><img width="32" height="32" alt="" src="<?php echo Yii::app()->theme->baseUrl; ?>/images/icons/twitter_32-2.png.png" /></a></li>
+                    <li><a title="Facebook" href="http://www.facebook.com/andthefunkybunch/"><img width="32" height="32" alt="" src="<?php echo Yii::app()->theme->baseUrl; ?>/images/icons/facebook_32-2.png.png" /></a></li>
                     <li><a title="8tracks" href="http://8tracks.com/andthefunkybunch"> <img width="32" height="32" src="http://8tracks.com/images/badges/50_px_8chichlet_white_blueBG.png" style="border-radius:2px" /> </a></li>
-                    <li><a title="Youtube" href="http://www.youtube.com/user/andthefunkybunch?feature=mhee"><img width="32" height="32" alt="" src="<?php echo Yii::app()->theme->baseUrl; ?>/images/my/youtube.png" /></a></li>
-                    <li><a title="Github" href="http://github.com/mbryk"><img width="32" height="32" alt="" src="<?php echo Yii::app()->theme->baseUrl; ?>/images/my/github.png" /></a></li>
-                    <li><a title="Contact Me" href="/site/contact"><img width="32" height="32" alt="" src="<?php echo Yii::app()->theme->baseUrl; ?>/images/my/contact_icon.png" /></a></li>
-                    <li><a title="About" href="/site/page?view=about"><img width="32" height="32" alt="" src="<?php echo Yii::app()->theme->baseUrl; ?>/images/my/help_icon.png" /></a></li>
+                    <li><a title="Youtube" href="http://www.youtube.com/user/andthefunkybunch?feature=mhee"><img width="32" height="32" alt="" src="<?php echo Yii::app()->theme->baseUrl; ?>/images/icons/youtube_icon.png" /></a></li>
+                    <li><a title="Github" href="http://github.com/mbryk"><img width="32" height="32" alt="" src="<?php echo Yii::app()->theme->baseUrl; ?>/images/icons/github.png" /></a></li>
+                    <li><a title="Contact Me" href="/site/contact"><img width="32" height="32" alt="" src="<?php echo Yii::app()->theme->baseUrl; ?>/images/icons/contact_icon.png" /></a></li>
+                    <li><a title="About" href="/site/page?view=about"><img width="32" height="32" alt="" src="<?php echo Yii::app()->theme->baseUrl; ?>/images/icons/help_icon.png" /></a></li>
                                                                                     <?php if ($this->getUniqueId()=='site' && $this->action->Id=='hillel'): ?> 
-                    <li><a title="Go to co.nr" href="http://co.nr"><img width="32" height="32" alt="" src="<?php echo Yii::app()->theme->baseUrl; ?>/images/my/help_icon.png" /></a></li>
+                    <li><a title="Go to co.nr" href="http://co.nr"><img width="32" height="32" alt="" src="<?php echo Yii::app()->theme->baseUrl; ?>/images/icons/help_icon.png" /></a></li>
                                                                                     <?php endif ?>
                 </ul>
             </div>
             <div class="main-container" <?php if($this->getUniqueId()=='site' && $this->action->Id=='index'): ?> style="padding-top:50px" <?php endif; ?>>
                 <?php if(!strstr(strtolower($_SERVER['HTTP_USER_AGENT']), 'mobile') || strstr(strtolower($_SERVER['HTTP_USER_AGENT']), 'android')): ?>
-                <!--<div class="art-headerobject"></div>-->
+                <div class="art-headerobject"></div>
                 <?php endif; ?>
 							<?php echo $content; ?>
             </div>

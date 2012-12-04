@@ -8,47 +8,43 @@
               <div class="tab-content">
                 <div class="tab-pane active" id="RES">
 
-<table class="table" border="0" cellspacing="0" cellpadding="0" width="690" style="width:650pt;border-collapse:collapse;mso-padding-alt:
- 0in 5.4pt 0in 5.4pt">
- <tbody><tr style="mso-yfti-irow:0;mso-yfti-firstrow:yes;height:102.15pt">
-  <td width="102" valign="top" style="width:120pt;padding:0in 5.4pt 0in 5.4pt;
-  height:102.15pt">
-  <p class="MsoNormal"><b>Education<o:p></o:p></b></p>
-  </td>
-  <td width="588" valign="top" style="width:441.0pt;padding:0in 5.4pt 0in 5.4pt;
-  height:102.15pt">
-  <p class="MsoNormal"><b>The Cooper Union for the Advancement of Art and Science</b><span style="mso-bidi-font-weight:bold">, Class of 2015<o:p></o:p></span></p>
-  <p class="MsoNormal" style="margin-left:.35in"><span style="mso-bidi-font-weight:
-  bold">Computer/Electrical Engineering major with interest in Mechanical
-  Engineering<o:p></o:p></span></p>
-  <p class="MsoNormal" style="margin-left:.35in"><span style="mso-bidi-font-weight:
-  bold">4-Year Full Tuition Scholarship<o:p></o:p></span></p>
-  <p class="MsoNormal" style="margin-left:.35in"><span style="mso-bidi-font-weight:
-  bold">GPA- 3.7<o:p></o:p></span></p>
-  <p class="MsoNormal" style="margin-left:12.6pt;text-indent:-12.6pt"><span class="SpellE"><b style="mso-bidi-font-weight:normal">Yeshivat</b></span><b style="mso-bidi-font-weight:normal"> <span class="SpellE">Har</span> <span class="SpellE">Etzion</span></b>, 2010-2011</p>
-  <p class="MsoNormal" style="margin-left:.35in">Post High School Religious
-  Seminary; located in Gush <span class="SpellE">Etzion</span>, Israel</p>
-  <p class="MsoNormal"><b>DRS-HALB High School for Boys, </b><span style="mso-bidi-font-weight:bold">Class of 2010<o:p></o:p></span></p>
-  <p class="MsoNormal" style="margin-left:.35in"><span style="mso-bidi-font-weight:
-  bold">GPA- 97.0%<o:p></o:p></span></p>
-  <p class="MsoNormal" style="margin-left:.35in"><span style="mso-bidi-font-weight:
-  bold"><o:p>&nbsp;</o:p></span></p>
-  </td>
- </tr>
- <tr style="mso-yfti-irow:1;height:101.2pt">
-  <td width="102" valign="top" style="width:120pt;padding:0in 5.4pt 0in 5.4pt;
-  height:101.2pt">
-  <p class="MsoNormal"><b>Professional Experience<o:p></o:p></b></p>
-  </td>
-  <td width="588" valign="top" style="width:441.0pt;padding:0in 5.4pt 0in 5.4pt;
-  height:101.2pt">
-  <p class="MsoNormal"><span class="SpellE"><b style="mso-bidi-font-weight:normal">Clevertech</b></span><b style="mso-bidi-font-weight:normal"> Development Team, </b><span style="mso-bidi-font-weight:bold">February 2012 – Present<o:p></o:p></span></p>
-  <p class="MsoNormal"><span style="mso-bidi-font-weight:bold">Developer<o:p></o:p></span></p>
-  <p class="MsoNormal" style="margin-left:.35in;text-indent:-.25in;mso-list:l12 level1 lfo9"><!--[if !supportLists]--><span style="font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
-  Symbol"><span style="mso-list:Ignore">¨<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  </span></span></span><!--[endif]--><span dir="LTR"></span>Built and maintaining <span class="SpellE">Pinbooster</span> social networking website, front-end and
-  back-end, using PHP/<span class="SpellE">Yii</span> framework<b style="mso-bidi-font-weight:normal"><o:p></o:p></b></p>
-  <p class="MsoNormal" style="margin-left:.35in;text-indent:-.25in;mso-list:l12 level1 lfo9"><!--[if !supportLists]--><span style="font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
+<table class="table" border="0" cellspacing="0" cellpadding="0" width="690" style="width:650pt;border-collapse:collapse;mso-padding-alt:0in 5.4pt 0in 5.4pt; cursor: default">
+ <tbody>
+     <tr style="mso-yfti-irow:0;mso-yfti-firstrow:yes;height:102.15pt">
+         <td width="102" valign="top" style="width:120pt;padding:0in 5.4pt 0in 5.4pt;height:102.15pt">
+             <p class="MsoNormal"><b>Education<o:p></o:p></b></p>
+         </td>
+         <td width="588" valign="top" style="width:441.0pt;padding:0in 5.4pt 0in 5.4pt;height:102.15pt">
+             <p class="MsoNormal"><b>The Cooper Union for the Advancement of Art and Science</b><span style="mso-bidi-font-weight:bold">, Class of 2015<o:p></o:p></span></p>
+             <p class="MsoNormal" style="margin-left:.35in">
+                 <span style="mso-bidi-font-weight:bold">Computer/Electrical Engineering major with interest in Mechanical Engineering<o:p></o:p></span>
+             </p>
+             <p class="MsoNormal" style="margin-left:.35in"><span style="mso-bidi-font-weight:bold">4-Year Full Tuition Scholarship<o:p></o:p></span></p>
+             <p class="MsoNormal" style="margin-left:.35in"><span style="mso-bidi-font-weight:bold">GPA- 3.7<o:p></o:p></span></p>
+             <p class="MsoNormal" style="margin-left:12.6pt;text-indent:-12.6pt"><span class="SpellE"><b style="mso-bidi-font-weight:normal">Yeshivat</b></span><b style="mso-bidi-font-weight:normal"> <span class="SpellE">Har</span> <span class="SpellE">Etzion</span></b>, 2010-2011</p>
+             <p class="MsoNormal" style="margin-left:.35in">Post High School Religious Seminary; located in Gush <span class="SpellE">Etzion</span>, Israel</p>
+             <p class="MsoNormal"><b>DRS-HALB High School for Boys, </b><span style="mso-bidi-font-weight:bold">Class of 2010<o:p></o:p></span></p>
+             <p class="MsoNormal" style="margin-left:.35in"><span style="mso-bidi-font-weight:bold">GPA- 97.0%<o:p></o:p></span></p>
+             <p class="MsoNormal" style="margin-left:.35in"><span style="mso-bidi-font-weight:bold"><o:p>&nbsp;</o:p></span></p>
+         </td>
+     </tr>
+     <tr style="mso-yfti-irow:1;height:101.2pt">
+         <td width="102" valign="top" style="width:120pt;padding:0in 5.4pt 0in 5.4pt;height:101.2pt">
+             <p class="MsoNormal"><b>Professional Experience<o:p></o:p></b></p>
+         </td>
+         <td width="588" valign="top" style="width:441.0pt;padding:0in 5.4pt 0in 5.4pt;height:101.2pt">
+             <p class="MsoNormal"><span class="SpellE"><b style="mso-bidi-font-weight:normal">Clevertech</b></span><b style="mso-bidi-font-weight:normal"> Development Team, </b><span style="mso-bidi-font-weight:bold">February 2012 – Present<o:p></o:p></span></p>
+             <p class="MsoNormal"><span style="mso-bidi-font-weight:bold">Developer<o:p></o:p></span></p>
+             <p class="MsoNormal" style="margin-left:.35in;text-indent:-.25in;mso-list:l12 level1 lfo9">
+                 <!--[if !supportLists]-->
+                 <span style="font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol">
+                     <span style="mso-list:Ignore">¨
+                         <span style="font:7.0pt 'Times New Roman'">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>                         
+                     </span>
+                 </span>
+                 <!--[endif]-->
+                 <span dir="LTR"></span>Built and maintaining <span class="SpellE">Pinbooster</span> social networking website, front-end and back-end, using PHP/<span class="SpellE">Yii</span> framework<b style="mso-bidi-font-weight:normal"><o:p></o:p></b></p>
+             <p class="MsoNormal" style="margin-left:.35in;text-indent:-.25in;mso-list:l12 level1 lfo9"><!--[if !supportLists]--><span style="font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
   Symbol"><span style="mso-list:Ignore">¨<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   </span></span></span><!--[endif]--><span dir="LTR"></span>Designed new SLAP
   website, giving help to small businesses, using Backbone.js<b style="mso-bidi-font-weight:normal"><o:p></o:p></b></p>
@@ -76,16 +72,15 @@
   normal"><o:p>&nbsp;</o:p></b></p>
   </td>
  </tr>
- <tr style="mso-yfti-irow:2;height:246.55pt">
+ <tr style="mso-yfti-irow:2;height:215.55pt">
   <td width="102" valign="top" style="width:120pt;padding:0in 5.4pt 0in 5.4pt;
-  height:246.55pt">
-  <p class="MsoNormal"><b>Projects<o:p></o:p></b></p>
+  height:215.55pt">
+      <p class="MsoNormal"><b>Projects<o:p></o:p></b></p>
   </td>
-  <td width="588" valign="top" style="width:441.0pt;padding:0in 5.4pt 0in 5.4pt;
-  height:246.55pt">
-  <p class="MsoNormal"><b style="mso-bidi-font-weight:normal">The Giving Tree,</b><span style="mso-bidi-font-weight:bold"> Spring 2012<o:p></o:p></span></p>
-  <p class="MsoNormal"><span style="mso-bidi-font-weight:bold">http://dap.cooper.edu/doku.php?id=start:classes:principlesofdesign:giving_tree:start<o:p></o:p></span></p>
-  <p class="MsoNormal" style="margin-left:.35in;text-indent:-.25in;mso-list:l6 level1 lfo13"><!--[if !supportLists]--><span style="font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
+  <td width="588" valign="top" style="width:441.0pt;padding:0in 5.4pt 0in 5.4pt;height:215.55pt">
+      <p class="MsoNormal"><b style="mso-bidi-font-weight:normal">The Giving Tree,</b><span style="mso-bidi-font-weight:bold"> Spring 2012<o:p></o:p></span></p>
+      <p class="MsoNormal"><span style="mso-bidi-font-weight:bold">http://dap.cooper.edu/doku.php?id=start:classes:principlesofdesign:giving_tree:start<o:p></o:p></span></p>
+      <p class="MsoNormal" style="margin-left:.35in;text-indent:-.25in;mso-list:l6 level1 lfo13"><!--[if !supportLists]--><span style="font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
   Symbol"><span style="mso-list:Ignore">¨<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   </span></span></span><!--[endif]--><span dir="LTR"></span>Used augmented reality to
   create an Android app and associated website which can assist organizations
@@ -126,7 +121,6 @@
   </span></span></span><!--[endif]--><span dir="LTR"></span>Followed four month
   schedule of study, lectures, and tests in a college-level Nuclear Science
   course</p>
-  <p class="MsoNormal" style="margin-left:.35in"><o:p>&nbsp;</o:p></p>
   </td>
  </tr>
  <tr style="mso-yfti-irow:3;mso-yfti-lastrow:yes;height:41.8pt">
