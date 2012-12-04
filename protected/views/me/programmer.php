@@ -1,4 +1,4 @@
-<a href="<?php echo Yii::app()->theme->baseUrl ?>/images/my/Shalhevet3.wmv">OP NYU</a>
+<h1 class="title">Grammin'</h1>
 <hr class="style-five">
 <div class="tabbable tabs-right">
               <ul class="nav nav-tabs" id="myTabs">
