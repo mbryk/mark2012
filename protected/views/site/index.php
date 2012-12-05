@@ -5,28 +5,28 @@
 <img src="<?php echo Yii::app()->theme->baseUrl ?>/images/my/shelf.png" class="shelf">
 <div id="container">
     <hr class="style-five" style="margin-right: 20px"> 
-    <a class="shelf-back" href="engineer">
+    <a class="shelf-back" href="engineer" title="Engineer">
         <div class="notes" id="engineer"></div>
     </a>
-    <a class="shelf-back" href="programmer">
+    <a class="shelf-back" href="programmer" title="Programmer">
         <div class="notes"  id="programmer"></div>
     </a>
-    <a class="shelf-back" href="music">
+    <a class="shelf-back" href="music" title="Musician">
         <div class="notes"  id="music"></div>
     </a>
-    <a class="shelf-back" href="stone">
+    <a class="shelf-back" href="stone" title="Stoner">
         <div class="notes"  id="stoner"></div>
     </a>
-    <a class="shelf-front" href="http://think.markbryk.in">
+    <a class="shelf-front" href="http://think.markbryk.in"  title="Thinker">
         <div class="notes" id="thinker"></div>
     </a>
-    <a class="shelf-front" href="play">
+    <a class="shelf-front" href="play" title="Athlete">
         <div class="notes" id="athlete"></div>
     </a>
-    <a class="shelf-front" href="artist">
+    <a class="shelf-front" href="artist" title="Artist">
         <div class="notes" id="artist"></div>
     </a>
-    <a class="shelf-front" href="job">
+    <a class="shelf-front" href="job" title="Student">
         <div class="notes" id="student"></div>
     </a>
     <!--

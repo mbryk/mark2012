@@ -35,7 +35,7 @@
     <body>
         <div style="min-height: 100%; position:relative">
             <div class="header">
-                <a href="http://www.markbryk.in"><img width="<?php echo $this->getUniqueId()=='site' && $this->action->Id=='index' ? '250': '100'; ?>" style="float:left" src="<?php echo Yii::app()->theme->baseUrl; ?>/images/my/my_Logo2.png" /></a>
+                <a href="http://www.markbryk.in"><img width="<?php echo $this->getUniqueId()=='site' && $this->action->Id=='index' ? '100': '100'; ?>" style="float:left" src="<?php echo Yii::app()->theme->baseUrl; ?>/images/sketches/brykachu1.png" /></a>
                 <ul class="header-menu">
                     <li><a title="Home" href="http://www.markbryk.in/"><img width="32" height="32" alt="" src="<?php echo Yii::app()->theme->baseUrl; ?>/images/my/home_icon2.png" /></a></li>
                     <li><a title="Twitter" href="http://twitter.com/markdotbryk"><img width="32" height="32" alt="" src="<?php echo Yii::app()->theme->baseUrl; ?>/images/icons/twitter_32-2.png" /></a></li>

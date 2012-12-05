@@ -22,17 +22,24 @@
             <img src="<?php echo Yii::app()->theme->baseUrl ?>/images/sketches/mom2.JPG" alt="" />
         </a>
     </li>
-    <br/>
+</ul>
+<ul class="thumbnails">
+        <li class="span3">
+        <a style="position:relative" class="thumbnail" href="<?php echo Yii::app()->theme->baseUrl ?>/images/sketches/brykachu.JPG" rel="shadowbox[Sketches]" title="Brykachu">
+            <img src="<?php echo Yii::app()->theme->baseUrl ?>/images/sketches/brykachu.JPG" alt="" />
+        </a>
+    </li>
     <li class="span3">
         <a style="position:relative" class="thumbnail" href="<?php echo Yii::app()->theme->baseUrl ?>/images/sketches/bart.JPG" rel="shadowbox[Sketches]" title="Bart Simpson-off">
             <img src="<?php echo Yii::app()->theme->baseUrl ?>/images/sketches/bart.JPG" alt="" />
         </a>
     </li>
-    <li class="span3">
+    <li class="span4">
         <a style="position:relative" class="thumbnail" href="<?php echo Yii::app()->theme->baseUrl ?>/images/sketches/zach.JPG" rel="shadowbox[Sketches]" title="Professor Berman">
             <img src="<?php echo Yii::app()->theme->baseUrl ?>/images/sketches/zach.JPG" alt="" />
         </a>
     </li>
+
 </ul>
 <?php
         Yii::app()->clientScript->registerScriptFile(Yii::app()->theme->baseUrl.'/js/shadowbox.js',CClientScript::POS_HEAD);
