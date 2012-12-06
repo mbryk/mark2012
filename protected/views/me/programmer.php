@@ -13,6 +13,16 @@
               </ul>
               <div class="tab-content">
                 <div class="tab-pane active" id="PB">
+                    <a href="http://www.pinbooster.com/">
+                        <div class="link-card link-card-left">
+                            <img src="https://pinbooster.com/imgs/images/get-paid1.jpg" />
+                        </div>
+                        <div class="link-card link-card-right">
+                            <h3>Connecting Advertisers with Pinterest Users</h3>
+                            <p>Pinbooster is a platform to help Pinners monetize their following, and advertisers of all sizes to reach millions of engaged users.</p>
+                        </div>
+                    </a>
+
                     <a href="http://betabeat.com/2012/06/pinbooster-pinterest-advertisers-brands-sponsored-pins/">
                         <div class="link-card link-card-left">
                             <img src="http://links.services.disqus.com/api/click?format=go&key=cfdfcf52dffd0a702a61bad27507376d&loc=http%3A%2F%2Fbetabeat.com%2F2012%2F06%2Fpinbooster-pinterest-advertisers-brands-sponsored-pins%2F&subId=673609&v=1&libid=1354741195428&out=http%3A%2F%2Fnyobetabeat.files.wordpress.com%2F2012%2F06%2Fpinbooster.jpg&ref=http%3A%2F%2Fwww.google.com%2Furl%3Fsa%3Dt%26rct%3Dj%26q%3D%26esrc%3Ds%26source%3Dweb%26cd%3D4%26ved%3D0CEUQFjAD%26url%3Dhttp%253A%252F%252Fbetabeat.com%252F2012%252F06%252Fpinbooster-pinterest-advertisers-brands-sponsored-pins%252F%26ei%3DrbW_UMGmCJOP0QGk8IHoCQ%26usg%3DAFQjCNHrasXKZEnMyqE-S1LMuY-dbPrDsA%26sig2%3DXYh1YJuBd4871ZQIhn2baw%26cad%3Drja&title=Pinbooster%20Brings%20Sponsored%20Pins%20to%20Pinterest%20%7C%20Betabeat&txt=&jsonp=vglnk_jsonp_13547414570473" />
@@ -34,22 +44,8 @@
                             <p>However, that hasn’t stopped other companies from using Pinterest’s growing popularity to generate revenue for themselves. Case in point: today, a new startup called Pinbooster is officially opening its doors, becoming the first ad platform which pays users to re-pin ad messages from brands.</p>
                         </div>
                     </a>
-                    
-                    <a href="http://www.pinbooster.com/">
-                        <div class="link-card link-card-left">
-                            <img src="https://pinbooster.com/imgs/images/get-paid1.jpg" />
-                        </div>
-                        <div class="link-card link-card-right">
-                            <h3>Connecting Advertisers with Pinterest Users</h3>
-                            <p>Pinbooster is a platform to help Pinners monetize their following, and advertisers of all sizes to reach millions of engaged users.</p>
-                        </div>
-                    </a>
-                        
-                    
-                    
-                    <!--<p><a href="http://www.pinbooster.com">Check it out</a></p>-->
                 </div>
-                <div class="tab-pane" id="AB">
+                  <div class="tab-pane" id="AB">
                     <a href="http://dev2.alephbeta.org">
                         <div class="link-card link-card-left">
                             <img src="http://dev2.alephbeta.org/themes/new/img/donate/dimage.jpg" />
@@ -75,7 +71,7 @@
                 <div class="tab-pane" id="ME">
                     <a href="http://www.markbryk.in/">
                         <div class="link-card link-card-left">
-                            <img src="http://www.markbryk.in/themes/new/images/sketches/brykachu1.png" height="130" />
+                            <img src="http://www.markbryk.in/themes/new/images/sketches/brykachu1.png"/>
                         </div>
                         <div class="link-card link-card-right">
                             <h3>This Site</h3>
@@ -136,7 +132,3 @@
                 </div>
               </div>
 </div>
-<?php
-Yii::app()->clientScript->registerScriptFile('http://vjs.zencdn.net/c/video.js',CClientScript::POS_HEAD);
-Yii::app()->clientScript->registerCssFile('http://vjs.zencdn.net/c/video-js.css',CClientScript::POS_HEAD);
-        ?>

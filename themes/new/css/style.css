@@ -1,6 +1,3 @@
-/* begin Page */
-/* Created by Artisteer v3.1.0.46558 */
-
 @font-face {
 	font-family: 'GoodDogRegular';
 	src: url('fonts/GoodDog-webfont.eot');
@@ -9,7 +6,6 @@
 	font-weight: normal;
 	font-style: normal;
 }
-
 h1, h2, h3, h4, h5, h6, p, a, ul, ol, li
 {
    margin: 0;
@@ -322,26 +318,34 @@ h1.title{
 }
 
 .link-card{
-    float: left;border: 1px solid gray;
-    height: 136px;
+    float: left;
+    border: 1px solid white;
+    height: 130px;
     overflow: hidden;
     background-color: #DDF0FA;
     color: gray;
     opacity: .7;
     margin: 10px 0;
+    padding: 10px 2%;    
 }
 a:hover .link-card{
     opacity: 1;
 }
 .link-card-left{
-    width: 15%;
-    border-right: none;
+    width: 20%;
+    border-right: double white;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
-    padding-right: 2%;
+}
+.link-card-right{
+    width: 70%;
+    border-left: none; 
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 .link-card img{
-    border-top-left-radius: 10px;
+    height: 120px;
+    border-radius: 4px;
 }
 .link-card h3{
     text-align: center;
@@ -349,12 +353,4 @@ a:hover .link-card{
     font-style: italic;
     font-size: 16px;
     color: black;
-}
-.link-card-right{
-    width: 60%;
-    margin-right:21%;
-    border-left: none; 
-    
-    border-top-right-radius: 10px;
-    border-bottom-right-radius: 10px;
 }

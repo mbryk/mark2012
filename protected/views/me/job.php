@@ -1,4 +1,4 @@
-<h1 class="title">Hire Me!</h1>
+<h1 class="title">My Professional Life</h1>
 <hr class="style-five">
 <div class="tabbable tabs-right">
               <ul class="nav nav-tabs">

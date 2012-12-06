@@ -1,17 +1,17 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"[]>
 <html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US" xml:lang="en">
     <head>
-        <!--
-        Created by Artisteer v3.0.0.39952
-        Base template (without user's data) checked by http://validator.w3.org : "This page is valid XHTML 1.0 Transitional"
-        -->
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="description" content="A little bit about me and my journey through life" />
+        <meta name="author" content="Mark Bryk" />
+        <meta name="keywords" content="mark evan bryk portfolio entrepeneur programmer developer engineer artist musician camp stone yii woodmere ny cooper union jew funky bunch"
+        
         <title><?php echo CHtml::encode(Yii::app()->name); ?></title>
         <link rel="icon" href="<?php echo Yii::app()->theme->baseUrl; ?>/images/my/clear_cool.ico" type="image/x-icon" />
         
         <?php 
         Yii::app()->clientScript->registerCssFile(Yii::app()->theme->baseUrl.'/css/style.css');
-        Yii::app()->clientScript->registerCssFile(Yii::app()->theme->baseUrl.'/css/form.css');
         
         Yii::app()->clientScript->registerScriptFile(Yii::app()->theme->baseUrl.'/css/script.js');
         Yii::app()->clientScript->registerScriptFile("//ajax.googleapis.com/ajax/libs/mootools/1.1.1/mootools-yui-compressed.js");
