@@ -1,3 +1,17 @@
+<?php if(Yii::app()->user->hasFlash('quiz')):?>
+<div class="alert alert-success" style="width:100%;position:absolute; top: -15px">
+    <button type="button" class="close" data-dismiss="alert">×</button>
+    <p style="text-align:center"><strong>Thanks</strong> for answering!!! I'm flattered!</p>
+</div>
+    <?php endif; ?>
+<?php
+Yii::app()->clientScript->registerScript(
+   'myHideEffect',
+   '$(".alert").animate({opacity: 1.0}, 3000).fadeOut("slow");',
+   CClientScript::POS_READY
+);
+?>
+
 <h1 class="title">Engineer</h1>
 <hr class="style-five">
 <div class="tabbable tabs-right">
@@ -10,10 +24,31 @@
               </ul>
               <div class="tab-content">
                 <div class="tab-pane active" id="CU">
-                  <p>I'm in Section A.</p>
+                    <p>Here's my mouthful: </p>
+                    <p>I am currently a Sophomore in the school of Engineering of <a href="http://www.cooper.edu">The Cooper Union</a> studying Computer Engineering within the Electrical Engineering department. </p>
+                    <p>Got it? Go <a href="/quiz/engineer">take the quiz</a>!</p>
                 </div>
                 <div class="tab-pane" id="SW">
-                  <p>Howdy, I'm in Section B.</p>
+                    <ul class="thumbnails">
+                        <li><a class="thumbnail" href="#">
+                                <img src="<?php echo Yii::app()->theme->baseUrl ?>/images/sketches/piano1.png" alt="">
+                            </a></li>
+                        <li><a class="thumbnail" href="#">
+                                <img src="<?php echo Yii::app()->theme->baseUrl ?>/images/sketches/piano2.png" alt="">
+                            </a></li>
+                        <li><a class="thumbnail" href="#">
+                                <img src="<?php echo Yii::app()->theme->baseUrl ?>/images/sketches/piano3.png" alt="">
+                            </a></li>
+                        <li><a class="thumbnail" href="#">
+                                <img src="<?php echo Yii::app()->theme->baseUrl ?>/images/sketches/piano4.png" alt="">
+                            </a></li>
+                        <li><a class="thumbnail" href="#">
+                                <img src="<?php echo Yii::app()->theme->baseUrl ?>/images/sketches/piano5.png" alt="">
+                            </a></li>
+                        <li><a class="thumbnail" href="#">
+                                <img src="<?php echo Yii::app()->theme->baseUrl ?>/images/sketches/piano6.png" alt="">
+                            </a></li>
+                    </ul>
                 </div>
                 <div class="tab-pane" id="PBR">
                     <a href="http://www.markbryk.in/stuff/PBR.docx">

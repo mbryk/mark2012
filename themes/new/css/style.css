@@ -283,7 +283,14 @@ h1.title{
   margin: 0;
   padding: 0;
 }
- 
+#SW li{
+    width: 230px;
+}
+#CU p{
+    padding-bottom: 20px;
+    font-size: 18px;
+    line-height: 18px;
+}
 .courses {
   list-style-type: none;
   margin: 0;

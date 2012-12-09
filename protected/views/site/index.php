@@ -6,12 +6,12 @@
     <hr class="style-five" style="margin-right: 20px"> 
 
 <div id="container">
-    <a class="shelf-back" href="engineer" title="Engineer">
-        <div class="notes" id="engineer"></div>
-    </a>
     <a class="shelf-back" href="programmer" title="Programmer">
         <div class="notes"  id="programmer"></div>
     </a>
+    <a class="shelf-back" href="engineer" title="Engineer">
+        <div class="notes" id="engineer"></div>
+    </a>    
     <a class="shelf-back" href="music" title="Musician">
         <div class="notes"  id="music"></div>
     </a>
