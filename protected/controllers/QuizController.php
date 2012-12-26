@@ -16,15 +16,21 @@ class QuizController extends Controller
 		);
 	}
 
-	/**
-	 * This is the default 'index' action that is invoked
-	 * when an action is not explicitly requested by users.
-	 */
 	public function actionIndex()
 	{
-		// renders the view file 'protected/views/site/index.php'
-		// using the default layout 'protected/views/layouts/main.php'
-		$this->redirect(array('engineer'));
+            if(isset($_POST['answer'])){
+                Yii::app()->user->setFlash('quiz', "Thanks for answering! I'm flattered");
+                $this->redirect($this->createUrl('me/engineer'));
+            }
+            $data = array(
+                '0'=>'Beautiful',
+                '1'=>'Fascinating',
+                '2'=>'Weird',
+                '3'=>'Surprising'
+                );
+            $this->render('engineer', array('data'=>$data));
+		//$this->redirect(array('engineer'));
+            
 	}
         
 	public function actionError()

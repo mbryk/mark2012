@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US" xml:lang="en">
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!--<meta name="viewport" content="width=device-width, initial-scale=1.0" />-->
         <meta name="description" content="A little bit about me and my journey through life" />
         <meta name="author" content="Mark Bryk" />
         <meta name="keywords" content="mark evan bryk portfolio entrepeneur programmer developer engineer artist musician camp stone yii woodmere ny cooper union jew funky bunch"
